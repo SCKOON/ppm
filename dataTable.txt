@@ -1,0 +1,11 @@
+$('#creditTransferReport').datagrid({
+            url: 'creditTransferReportController.do?datagrid&field=terminalName,grossAllNum,pendingNum,approveNum,declineNum,grossAmt,pendingAmt,approvedAmt,declineAmt,',
+            pageNumber: 1,
+            queryParams: queryParams,
+            showFooter: true,
+            onLoadSuccess: function(data){
+                if (data.total == 0) {
+                    $(this).datagrid('appendRow', { terminalName: '<div style="text-align:center;color:red">No record found！</div>' }).datagrid('mergeCells', { index: 0, field: 'terminalName', colspan: 9 })
+                }
+            }
+        });
