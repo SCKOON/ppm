@@ -1,0 +1,1 @@
+javax.naming.PartialResultException: Unprocessed Continuation Reference(s); remaining name 'dc=singaporepower,dc=local'
