@@ -32,13 +32,14 @@ public class CreditUpdateRecDaoImp extends GenericBaseCommonDao implements Credi
 
 
         //  StringBuilder hql = new StringBuilder("select b.accNo,m.meterId,b.curBal,b.updateFlag,b.updateTime,b.ctlNo,case when b.smsNo < '0' then NULL else b.smsNo end,b.lastBal from  BalanceRecordEntity as b,MeterInfoEntity as m where b.accNo = m.accNo  ");
-        StringBuilder sql = new StringBuilder("SELECT b.acc_no,m.meter_id,b.cur_bal,b.update_flag,b.update_time,b.ctl_no,case when b.sms_no < '0' then NULL when b.sms_no is null then NULL else b.sms_no end as sms_no,b.last_bal FROM A_BALANCE_REC b,A_METER_INFO m where b.acc_no = m.acc_no  ");
+        //StringBuilder sql = new StringBuilder("SELECT b.acc_no,m.meter_id,b.cur_bal,b.update_flag,b.update_time,b.ctl_no,case when b.sms_no < '0' then NULL when b.sms_no is null then NULL else b.sms_no end as sms_no,b.last_bal FROM A_BALANCE_REC b,A_METER_INFO m where b.acc_no = m.acc_no  ");
+        StringBuilder sql = new StringBuilder("SELECT b.acc_no,b.cur_bal,b.update_flag,b.update_time,b.ctl_no,case when b.sms_no < '0' then NULL when b.sms_no is null then NULL else b.sms_no end as sms_no,b.last_bal FROM A_BALANCE_REC b where 1=1 ");
 
         StringBuilder condition = new StringBuilder("");
         List params = new ArrayList();
 
         String accNo = FormatValidateUtil.validateAccNo(request.getParameter("accNo"));
-        String meterId = FormatValidateUtil.validateMeterId(request.getParameter("meterId"));
+       // String meterId = FormatValidateUtil.validateMeterId(request.getParameter("meterId"));
         String updateFlag = request.getParameter("updateFlag");
         String date_begin = request.getParameter("updateTime_begin");
         String date_end = request.getParameter("updateTime_end");
@@ -48,10 +49,10 @@ public class CreditUpdateRecDaoImp extends GenericBaseCommonDao implements Credi
             params.add(accNo);
         }
 
-        if(!StringUtil.isEmpty(meterId)){
+/*        if(!StringUtil.isEmpty(meterId)){
             condition.append(" and m.meter_id = ? ");
             params.add(meterId);
-        }
+        }*/
 
         if(!StringUtil.isEmpty(updateFlag)){
             condition.append(" and b.update_flag = ? ");
@@ -94,22 +95,22 @@ public class CreditUpdateRecDaoImp extends GenericBaseCommonDao implements Credi
             Object[] objects = (Object[]) list.get(i);
             CreditURecResultVo resultVo1 = new CreditURecResultVo();
             resultVo1.setAccNo((String) objects[0]);
-            resultVo1.setMeterId((String) objects[1]);
+          //  resultVo1.setMeterId((String) objects[1]);
             //resultVo1.setCurBal((BigDecimal) objects[2]);
-            if (objects[2] != null) {
-                BigDecimal big2 = ((BigDecimal) objects[2]).setScale(2, BigDecimal.ROUND_HALF_UP);
+            if (objects[1] != null) {
+                BigDecimal big2 = ((BigDecimal) objects[1]).setScale(2, BigDecimal.ROUND_HALF_UP);
                 double db2 = big2.doubleValue();
                 String format = df.format(db2);
                 BigDecimal bigbal = new BigDecimal(format);
                 resultVo1.setCurBal(bigbal);
             }
-            resultVo1.setUpdateFlag((String) objects[3]);
-            resultVo1.setUpdateTime((Date) objects[4]);
-            resultVo1.setCtlNo((String) objects[5]);
-            resultVo1.setSmsNo((String) objects[6]);
+            resultVo1.setUpdateFlag((String) objects[2]);
+            resultVo1.setUpdateTime((Date) objects[3]);
+            resultVo1.setCtlNo((String) objects[4]);
+            resultVo1.setSmsNo((String) objects[5]);
             //resultVo1.setLastBal((BigDecimal) objects[7]);
-            if (objects[7] != null) {
-                BigDecimal big7 = ((BigDecimal) objects[7]).setScale(2, BigDecimal.ROUND_HALF_UP);
+            if (objects[6] != null) {
+                BigDecimal big7 = ((BigDecimal) objects[6]).setScale(2, BigDecimal.ROUND_HALF_UP);
                 double db7 = big7.doubleValue();
                 String format = df.format(db7);
                 BigDecimal bigbal = new BigDecimal(format);
