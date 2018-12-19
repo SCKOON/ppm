@@ -1,0 +1,1768 @@
+F:\soft\java\1.8\bin\java "-javaagent:F:\Program Files\JetBrains\IntelliJ IDEA 2017.1.4\lib\idea_rt.jar=57300:F:\Program Files\JetBrains\IntelliJ IDEA 2017.1.4\bin" -Dfile.encoding=UTF-8 -classpath F:\soft\java\1.8\jre\lib\charsets.jar;F:\soft\java\1.8\jre\lib\deploy.jar;F:\soft\java\1.8\jre\lib\ext\access-bridge-64.jar;F:\soft\java\1.8\jre\lib\ext\cldrdata.jar;F:\soft\java\1.8\jre\lib\ext\dnsns.jar;F:\soft\java\1.8\jre\lib\ext\jaccess.jar;F:\soft\java\1.8\jre\lib\ext\jfxrt.jar;F:\soft\java\1.8\jre\lib\ext\localedata.jar;F:\soft\java\1.8\jre\lib\ext\nashorn.jar;F:\soft\java\1.8\jre\lib\ext\sunec.jar;F:\soft\java\1.8\jre\lib\ext\sunjce_provider.jar;F:\soft\java\1.8\jre\lib\ext\sunmscapi.jar;F:\soft\java\1.8\jre\lib\ext\sunpkcs11.jar;F:\soft\java\1.8\jre\lib\ext\zipfs.jar;F:\soft\java\1.8\jre\lib\javaws.jar;F:\soft\java\1.8\jre\lib\jce.jar;F:\soft\java\1.8\jre\lib\jfr.jar;F:\soft\java\1.8\jre\lib\jfxswt.jar;F:\soft\java\1.8\jre\lib\jsse.jar;F:\soft\java\1.8\jre\lib\management-agent.jar;F:\soft\java\1.8\jre\lib\plugin.jar;F:\soft\java\1.8\jre\lib\resources.jar;F:\soft\java\1.8\jre\lib\rt.jar;F:\workSpace\ppms\target\classes;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter\1.5.6.RELEASE\spring-boot-starter-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot\1.5.6.RELEASE\spring-boot-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-autoconfigure\1.5.6.RELEASE\spring-boot-autoconfigure-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-logging\1.5.6.RELEASE\spring-boot-starter-logging-1.5.6.RELEASE.jar;F:\repository\maven_lib\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;F:\repository\maven_lib\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;F:\repository\maven_lib\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;F:\repository\maven_lib\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;F:\repository\maven_lib\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;F:\repository\maven_lib\org\springframework\spring-core\4.3.10.RELEASE\spring-core-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-test\1.5.6.RELEASE\spring-boot-starter-test-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-test\1.5.6.RELEASE\spring-boot-test-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-test-autoconfigure\1.5.6.RELEASE\spring-boot-test-autoconfigure-1.5.6.RELEASE.jar;F:\repository\maven_lib\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;F:\repository\maven_lib\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;F:\repository\maven_lib\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;F:\repository\maven_lib\junit\junit\4.12\junit-4.12.jar;F:\repository\maven_lib\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar;F:\repository\maven_lib\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;F:\repository\maven_lib\org\objenesis\objenesis\2.1\objenesis-2.1.jar;F:\repository\maven_lib\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\repository\maven_lib\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;F:\repository\maven_lib\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar;F:\repository\maven_lib\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;F:\repository\maven_lib\org\springframework\spring-test\4.3.10.RELEASE\spring-test-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-web\1.5.6.RELEASE\spring-boot-starter-web-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-tomcat\1.5.6.RELEASE\spring-boot-starter-tomcat-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\apache\tomcat\embed\tomcat-embed-core\8.5.16\tomcat-embed-core-8.5.16.jar;F:\repository\maven_lib\org\apache\tomcat\embed\tomcat-embed-el\8.5.16\tomcat-embed-el-8.5.16.jar;F:\repository\maven_lib\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.16\tomcat-embed-websocket-8.5.16.jar;F:\repository\maven_lib\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;F:\repository\maven_lib\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;F:\repository\maven_lib\com\fasterxml\jackson\core\jackson-databind\2.8.9\jackson-databind-2.8.9.jar;F:\repository\maven_lib\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;F:\repository\maven_lib\com\fasterxml\jackson\core\jackson-core\2.8.9\jackson-core-2.8.9.jar;F:\repository\maven_lib\org\springframework\spring-web\4.3.10.RELEASE\spring-web-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-aop\4.3.10.RELEASE\spring-aop-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-beans\4.3.10.RELEASE\spring-beans-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-webmvc\4.3.10.RELEASE\spring-webmvc-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-expression\4.3.10.RELEASE\spring-expression-4.3.10.RELEASE.jar;F:\repository\maven_lib\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-devtools\1.5.6.RELEASE\spring-boot-devtools-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-thymeleaf\1.5.6.RELEASE\spring-boot-starter-thymeleaf-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\thymeleaf\thymeleaf-spring4\2.1.5.RELEASE\thymeleaf-spring4-2.1.5.RELEASE.jar;F:\repository\maven_lib\org\thymeleaf\thymeleaf\2.1.5.RELEASE\thymeleaf-2.1.5.RELEASE.jar;F:\repository\maven_lib\ognl\ognl\3.0.8\ognl-3.0.8.jar;F:\repository\maven_lib\org\unbescape\unbescape\1.1.0.RELEASE\unbescape-1.1.0.RELEASE.jar;F:\repository\maven_lib\nz\net\ultraq\thymeleaf\thymeleaf-layout-dialect\1.4.0\thymeleaf-layout-dialect-1.4.0.jar;F:\repository\maven_lib\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;F:\repository\maven_lib\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;F:\repository\maven_lib\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.3.0\mybatis-spring-boot-starter-1.3.0.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-jdbc\1.5.6.RELEASE\spring-boot-starter-jdbc-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\apache\tomcat\tomcat-jdbc\8.5.16\tomcat-jdbc-8.5.16.jar;F:\repository\maven_lib\org\apache\tomcat\tomcat-juli\8.5.16\tomcat-juli-8.5.16.jar;F:\repository\maven_lib\org\springframework\spring-jdbc\4.3.10.RELEASE\spring-jdbc-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.3.0\mybatis-spring-boot-autoconfigure-1.3.0.jar;F:\repository\maven_lib\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-data-jpa\1.5.6.RELEASE\spring-boot-starter-data-jpa-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-aop\1.5.6.RELEASE\spring-boot-starter-aop-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;F:\repository\maven_lib\org\hibernate\hibernate-core\5.0.12.Final\hibernate-core-5.0.12.Final.jar;F:\repository\maven_lib\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;F:\repository\maven_lib\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;F:\repository\maven_lib\antlr\antlr\2.7.7\antlr-2.7.7.jar;F:\repository\maven_lib\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar;F:\repository\maven_lib\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;F:\repository\maven_lib\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;F:\repository\maven_lib\org\hibernate\hibernate-entitymanager\5.0.12.Final\hibernate-entitymanager-5.0.12.Final.jar;F:\repository\maven_lib\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;F:\repository\maven_lib\org\springframework\data\spring-data-jpa\1.11.6.RELEASE\spring-data-jpa-1.11.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\data\spring-data-commons\1.13.6.RELEASE\spring-data-commons-1.13.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-orm\4.3.10.RELEASE\spring-orm-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-tx\4.3.10.RELEASE\spring-tx-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-aspects\4.3.10.RELEASE\spring-aspects-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-data-redis\1.5.6.RELEASE\spring-boot-starter-data-redis-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\data\spring-data-redis\1.8.6.RELEASE\spring-data-redis-1.8.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\data\spring-data-keyvalue\1.2.6.RELEASE\spring-data-keyvalue-1.2.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-oxm\4.3.10.RELEASE\spring-oxm-4.3.10.RELEASE.jar;F:\repository\maven_lib\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;F:\repository\maven_lib\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;F:\repository\maven_lib\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;F:\repository\maven_lib\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;F:\repository\maven_lib\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;F:\repository\maven_lib\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;F:\repository\maven_lib\commons-io\commons-io\2.5\commons-io-2.5.jar;F:\repository\maven_lib\org\apache\velocity\velocity\1.7\velocity-1.7.jar;F:\repository\maven_lib\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;F:\repository\maven_lib\com\alibaba\fastjson\1.2.31\fastjson-1.2.31.jar;F:\repository\maven_lib\com\microsoft\sqlserver\mssql-jdbc\6.1.0.jre7\mssql-jdbc-6.1.0.jre7.jar;F:\repository\maven_lib\com\microsoft\azure\azure-keyvault\0.9.3\azure-keyvault-0.9.3.jar;F:\repository\maven_lib\com\microsoft\azure\azure-core\0.9.3\azure-core-0.9.3.jar;F:\repository\maven_lib\javax\mail\mail\1.4.5\mail-1.4.5.jar;F:\repository\maven_lib\javax\activation\activation\1.1\activation-1.1.jar;F:\repository\maven_lib\com\sun\jersey\jersey-client\1.13\jersey-client-1.13.jar;F:\repository\maven_lib\com\sun\jersey\jersey-core\1.13\jersey-core-1.13.jar;F:\repository\maven_lib\com\sun\jersey\jersey-json\1.13\jersey-json-1.13.jar;F:\repository\maven_lib\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;F:\repository\maven_lib\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;F:\repository\maven_lib\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;F:\repository\maven_lib\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;F:\repository\maven_lib\org\codehaus\jackson\jackson-core-asl\1.9.2\jackson-core-asl-1.9.2.jar;F:\repository\maven_lib\org\codehaus\jackson\jackson-mapper-asl\1.9.2\jackson-mapper-asl-1.9.2.jar;F:\repository\maven_lib\org\codehaus\jackson\jackson-jaxrs\1.9.2\jackson-jaxrs-1.9.2.jar;F:\repository\maven_lib\org\codehaus\jackson\jackson-xc\1.9.2\jackson-xc-1.9.2.jar;F:\repository\maven_lib\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;F:\repository\maven_lib\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;F:\repository\maven_lib\javax\inject\javax.inject\1\javax.inject-1.jar;F:\repository\maven_lib\com\microsoft\azure\adal4j\1.0.0\adal4j-1.0.0.jar;F:\repository\maven_lib\com\nimbusds\oauth2-oidc-sdk\4.5\oauth2-oidc-sdk-4.5.jar;F:\repository\maven_lib\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;F:\repository\maven_lib\com\nimbusds\lang-tag\1.4\lang-tag-1.4.jar;F:\repository\maven_lib\com\nimbusds\nimbus-jose-jwt\3.1.2\nimbus-jose-jwt-3.1.2.jar;F:\repository\maven_lib\org\bouncycastle\bcprov-jdk15on\1.51\bcprov-jdk15on-1.51.jar;F:\repository\maven_lib\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;F:\repository\maven_lib\org\springframework\boot\spring-boot-starter-cache\1.5.6.RELEASE\spring-boot-starter-cache-1.5.6.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-context\4.3.10.RELEASE\spring-context-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\springframework\spring-context-support\4.3.10.RELEASE\spring-context-support-4.3.10.RELEASE.jar;F:\repository\maven_lib\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;F:\repository\maven_lib\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;F:\repository\maven_lib\org\apache\shiro\shiro-core\1.3.2\shiro-core-1.3.2.jar;F:\repository\maven_lib\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;F:\repository\maven_lib\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;F:\repository\maven_lib\org\apache\shiro\shiro-spring\1.3.2\shiro-spring-1.3.2.jar;F:\repository\maven_lib\org\apache\shiro\shiro-web\1.3.2\shiro-web-1.3.2.jar;F:\repository\maven_lib\com\alibaba\druid\1.0.28\druid-1.0.28.jar;F:\repository\maven_lib\org\apache\cxf\cxf-spring-boot-starter-jaxws\3.2.4\cxf-spring-boot-starter-jaxws-3.2.4.jar;F:\repository\maven_lib\org\apache\cxf\cxf-spring-boot-autoconfigure\3.2.4\cxf-spring-boot-autoconfigure-3.2.4.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-transports-http\3.2.4\cxf-rt-transports-http-3.2.4.jar;F:\repository\maven_lib\org\apache\cxf\cxf-core\3.2.4\cxf-core-3.2.4.jar;F:\repository\maven_lib\com\fasterxml\woodstox\woodstox-core\5.0.3\woodstox-core-5.0.3.jar;F:\repository\maven_lib\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;F:\repository\maven_lib\org\apache\ws\xmlschema\xmlschema-core\2.2.3\xmlschema-core-2.2.3.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-frontend-jaxws\3.2.4\cxf-rt-frontend-jaxws-3.2.4.jar;F:\repository\maven_lib\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar;F:\repository\maven_lib\org\ow2\asm\asm\5.2\asm-5.2.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-bindings-soap\3.2.4\cxf-rt-bindings-soap-3.2.4.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-wsdl\3.2.4\cxf-rt-wsdl-3.2.4.jar;F:\repository\maven_lib\wsdl4j\wsdl4j\1.6.3\wsdl4j-1.6.3.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-databinding-jaxb\3.2.4\cxf-rt-databinding-jaxb-3.2.4.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-bindings-xml\3.2.4\cxf-rt-bindings-xml-3.2.4.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-frontend-simple\3.2.4\cxf-rt-frontend-simple-3.2.4.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-ws-addr\3.2.4\cxf-rt-ws-addr-3.2.4.jar;F:\repository\maven_lib\org\apache\cxf\cxf-rt-ws-policy\3.2.4\cxf-rt-ws-policy-3.2.4.jar;F:\repository\maven_lib\org\apache\neethi\neethi\3.1.1\neethi-3.1.1.jar;F:\repository\maven_lib\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;F:\repository\maven_lib\org\apache\poi\poi\3.15\poi-3.15.jar;F:\repository\maven_lib\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;F:\repository\maven_lib\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;F:\repository\maven_lib\org\apache\poi\poi-ooxml-schemas\3.15\poi-ooxml-schemas-3.15.jar;F:\repository\maven_lib\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;F:\repository\maven_lib\stax\stax-api\1.0.1\stax-api-1.0.1.jar;F:\repository\maven_lib\org\apache\poi\poi-ooxml\3.15\poi-ooxml-3.15.jar;F:\repository\maven_lib\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;F:\repository\maven_lib\com\github\pagehelper\pagehelper\4.2.1\pagehelper-4.2.1.jar;F:\repository\maven_lib\com\github\jsqlparser\jsqlparser\0.9.5\jsqlparser-0.9.5.jar;F:\repository\maven_lib\com\jcraft\jsch\0.1.24\jsch-0.1.24.jar;F:\repository\maven_lib\net\sourceforge\javacsv\javacsv\2.0\javacsv-2.0.jar;F:\repository\maven_lib\org\mybatis\generator\mybatis-generator-core\1.3.6\mybatis-generator-core-1.3.6.jar;F:\repository\maven_lib\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;F:\repository\maven_lib\io\springfox\springfox-swagger2\2.6.1\springfox-swagger2-2.6.1.jar;F:\repository\maven_lib\io\swagger\swagger-annotations\1.5.10\swagger-annotations-1.5.10.jar;F:\repository\maven_lib\io\swagger\swagger-models\1.5.10\swagger-models-1.5.10.jar;F:\repository\maven_lib\io\springfox\springfox-spi\2.6.1\springfox-spi-2.6.1.jar;F:\repository\maven_lib\io\springfox\springfox-core\2.6.1\springfox-core-2.6.1.jar;F:\repository\maven_lib\io\springfox\springfox-schema\2.6.1\springfox-schema-2.6.1.jar;F:\repository\maven_lib\io\springfox\springfox-swagger-common\2.6.1\springfox-swagger-common-2.6.1.jar;F:\repository\maven_lib\io\springfox\springfox-spring-web\2.6.1\springfox-spring-web-2.6.1.jar;F:\repository\maven_lib\com\google\guava\guava\18.0\guava-18.0.jar;F:\repository\maven_lib\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;F:\repository\maven_lib\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;F:\repository\maven_lib\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;F:\repository\maven_lib\org\mapstruct\mapstruct\1.0.0.Final\mapstruct-1.0.0.Final.jar;F:\repository\maven_lib\io\springfox\springfox-swagger-ui\2.6.1\springfox-swagger-ui-2.6.1.jar com.sp.ppms.console.util.A
+Ignoring disabled cipher suite: SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
+Ignoring disabled cipher suite: SSL_DH_anon_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_KRB5_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_3DES_EDE_CBC_MD5
+Ignoring disabled cipher suite: SSL_DH_anon_WITH_RC4_128_MD5
+Ignoring disabled cipher suite: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_DH_anon_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_anon_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_RC4_40_SHA
+Ignoring disabled cipher suite: SSL_RSA_EXPORT_WITH_DES40_CBC_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_RSA_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA
+Ignoring disabled cipher suite: TLS_KRB5_EXPORT_WITH_RC4_40_MD5
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_KRB5_WITH_RC4_128_MD5
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_RC4_128_MD5
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+Ignoring disabled cipher suite: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+trustStore is: F:\soft\java\1.8\jre\lib\security\cacerts
+trustStore type is : jks
+trustStore provider is : 
+init truststore
+adding as trusted cert:
+  Subject: CN=Equifax Secure Global eBusiness CA-1, O=Equifax Secure Inc., C=US
+  Issuer:  CN=Equifax Secure Global eBusiness CA-1, O=Equifax Secure Inc., C=US
+  Algorithm: RSA; Serial number: 0xc3517
+  Valid from Mon Jun 21 12:00:00 SGT 1999 until Mon Jun 22 12:00:00 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Issuer:  CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Algorithm: EC; Serial number: 0xa68b79290000000050d091f9
+  Valid from Tue Dec 18 23:25:36 SGT 2012 until Fri Dec 18 23:55:36 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=SecureTrust CA, O=SecureTrust Corporation, C=US
+  Issuer:  CN=SecureTrust CA, O=SecureTrust Corporation, C=US
+  Algorithm: RSA; Serial number: 0xcf08e5c0816a5ad427ff0eb271859d0
+  Valid from Wed Nov 08 03:31:18 SGT 2006 until Tue Jan 01 03:40:55 SGT 2030
+
+adding as trusted cert:
+  Subject: OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
+  Issuer:  OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Tue Sep 30 12:20:49 SGT 2003 until Sat Sep 30 12:20:49 SGT 2023
+
+adding as trusted cert:
+  Subject: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0x83be056904246b1a1756ac95991c74a
+  Valid from Fri Nov 10 08:00:00 SGT 2006 until Mon Nov 10 08:00:00 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x445734245b81899b35f2ceb82b3b5ba726f07528
+  Valid from Fri Jan 13 02:59:32 SGT 2012 until Mon Jan 13 02:59:32 SGT 2042
+
+adding as trusted cert:
+  Subject: CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0x59b1b579e8e2132e23907bda777755c
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=qppmsbs1.sap.local, OU=ITD, O=SPGroup, L=Singapore, ST=Singapore, C=SG
+  Issuer:  CN=SPAuth, DC=SAP, DC=local
+  Algorithm: RSA; Serial number: 0x15000000d3997a90b8805b4f550001000000d3
+  Valid from Fri Sep 21 11:50:31 SGT 2018 until Mon Sep 20 11:50:31 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US
+  Algorithm: RSA; Serial number: 0x18acb56afd69b6153a636cafdafac4a1
+  Valid from Mon Nov 27 08:00:00 SGT 2006 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP
+  Issuer:  OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Fri May 29 13:00:39 SGT 2009 until Tue May 29 13:00:39 SGT 2029
+
+adding as trusted cert:
+  Subject: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 3 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Issuer:  OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 3 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x7dd9fe07cfa81eb7107967fba78934c6
+  Valid from Mon May 18 08:00:00 SGT 1998 until Wed Aug 02 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW
+  Issuer:  OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW
+  Algorithm: RSA; Serial number: 0x15c8bd65475cafb897005ee406d2bc9d
+  Valid from Mon Dec 20 10:31:27 SGT 2004 until Wed Dec 20 10:31:27 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=AffirmTrust Commercial, O=AffirmTrust, C=US
+  Issuer:  CN=AffirmTrust Commercial, O=AffirmTrust, C=US
+  Algorithm: RSA; Serial number: 0x7777062726a9b17c
+  Valid from Fri Jan 29 22:06:06 SGT 2010 until Tue Dec 31 22:06:06 SGT 2030
+
+adding as trusted cert:
+  Subject: CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+  Issuer:  CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+  Algorithm: RSA; Serial number: 0x444c0
+  Valid from Wed Oct 22 20:07:37 SGT 2008 until Mon Dec 31 20:07:37 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US
+  Issuer:  CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US
+  Algorithm: RSA; Serial number: 0x50946cec18ead59c4dd597ef758fa0ad
+  Valid from Tue Nov 02 01:14:04 SGT 2004 until Mon Jan 01 13:37:19 SGT 2035
+
+adding as trusted cert:
+  Subject: CN=Sonera Class2 CA, O=Sonera, C=FI
+  Issuer:  CN=Sonera Class2 CA, O=Sonera, C=FI
+  Algorithm: RSA; Serial number: 0x1d
+  Valid from Fri Apr 06 15:29:40 SGT 2001 until Tue Apr 06 15:29:40 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=America Online Root Certification Authority 1, O=America Online Inc., C=US
+  Issuer:  CN=America Online Root Certification Authority 1, O=America Online Inc., C=US
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 28 14:00:00 SGT 2002 until Fri Nov 20 04:43:00 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+  Algorithm: EC; Serial number: 0x3cb2f4480a00e2feeb243b5e603ec36b
+  Valid from Mon Nov 05 08:00:00 SGT 2007 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+  Issuer:  OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+  Algorithm: RSA; Serial number: 0x35def4cf
+  Valid from Sun Aug 23 00:41:51 SGT 1998 until Thu Aug 23 00:41:51 SGT 2018
+
+adding as trusted cert:
+  Subject: CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Issuer:  CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Algorithm: EC; Serial number: 0x1f47afaa62007050544c019e9b63992a
+  Valid from Thu Mar 06 08:00:00 SGT 2008 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=ISRG Root X1, O=Internet Security Research Group, C=US
+  Issuer:  CN=ISRG Root X1, O=Internet Security Research Group, C=US
+  Algorithm: RSA; Serial number: 0x8210cfb0d240e3594463e0bb63828b00
+  Valid from Thu Jun 04 19:04:38 SGT 2015 until Mon Jun 04 19:04:38 SGT 2035
+
+adding as trusted cert:
+  Subject: CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0x2ac5c266a0b409b8f0b79f2ae462577
+  Valid from Fri Nov 10 08:00:00 SGT 2006 until Mon Nov 10 08:00:00 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Thu Mar 04 13:00:00 SGT 2004 until Sun Mar 04 13:00:00 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+  Issuer:  CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+  Algorithm: RSA; Serial number: 0x4000000000121585308a2
+  Valid from Wed Mar 18 18:00:00 SGT 2009 until Sun Mar 18 18:00:00 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+  Issuer:  CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+  Algorithm: RSA; Serial number: 0x20000b9
+  Valid from Sat May 13 02:46:00 SGT 2000 until Tue May 13 07:59:00 SGT 2025
+
+adding as trusted cert:
+  Subject: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, ST=Western Cape, C=ZA
+  Issuer:  CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, ST=Western Cape, C=ZA
+  Algorithm: RSA; Serial number: 0x67c8e1e8e3be1cbdfc913b8ea6238749
+  Valid from Wed Jan 01 08:00:00 SGT 1997 until Sat Jan 02 07:59:59 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Issuer:  CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Thu Jan 01 08:00:00 SGT 2004 until Mon Jan 01 07:59:59 SGT 2029
+
+adding as trusted cert:
+  Subject: OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+  Issuer:  OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Wed Jun 30 01:39:16 SGT 2004 until Fri Jun 30 01:39:16 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
+  Issuer:  CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Wed Oct 01 00:13:43 SGT 2003 until Thu Oct 01 00:13:44 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=UTN-USERFirst-Hardware, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Issuer:  CN=UTN-USERFirst-Hardware, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Algorithm: RSA; Serial number: 0x44be0c8b500024b411d3362afe650afd
+  Valid from Sat Jul 10 02:10:42 SGT 1999 until Wed Jul 10 02:19:22 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x9b7e0649a33e62b9d5ee90487129ef57
+  Valid from Fri Oct 01 08:00:00 SGT 1999 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+  Issuer:  CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+  Algorithm: RSA; Serial number: 0x40000000001154b5ac394
+  Valid from Tue Sep 01 20:00:00 SGT 1998 until Fri Jan 28 20:00:00 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Issuer:  CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Algorithm: RSA; Serial number: 0x44be0c8b500024b411d3362de0b35f1b
+  Valid from Sat Jul 10 02:31:20 SGT 1999 until Wed Jul 10 02:40:36 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=AffirmTrust Networking, O=AffirmTrust, C=US
+  Issuer:  CN=AffirmTrust Networking, O=AffirmTrust, C=US
+  Algorithm: RSA; Serial number: 0x7c4f04391cd4992d
+  Valid from Fri Jan 29 22:08:24 SGT 2010 until Tue Dec 31 22:08:24 SGT 2030
+
+adding as trusted cert:
+  Subject: CN=AffirmTrust Premium, O=AffirmTrust, C=US
+  Issuer:  CN=AffirmTrust Premium, O=AffirmTrust, C=US
+  Algorithm: RSA; Serial number: 0x6d8c1446b1a60aee
+  Valid from Fri Jan 29 22:10:36 SGT 2010 until Mon Dec 31 22:10:36 SGT 2040
+
+adding as trusted cert:
+  Subject: CN=Baltimore CyberTrust Code Signing Root, OU=CyberTrust, O=Baltimore, C=IE
+  Issuer:  CN=Baltimore CyberTrust Code Signing Root, OU=CyberTrust, O=Baltimore, C=IE
+  Algorithm: RSA; Serial number: 0x20000bf
+  Valid from Wed May 17 22:01:00 SGT 2000 until Sun May 18 07:59:00 SGT 2025
+
+adding as trusted cert:
+  Subject: CN=America Online Root Certification Authority 2, O=America Online Inc., C=US
+  Issuer:  CN=America Online Root Certification Authority 2, O=America Online Inc., C=US
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 28 14:00:00 SGT 2002 until Tue Sep 29 22:08:00 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU
+  Issuer:  CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU
+  Algorithm: RSA; Serial number: 0xbb8
+  Valid from Thu Mar 17 17:51:37 SGT 2011 until Wed Mar 17 17:51:37 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+  Algorithm: RSA; Serial number: 0x15ac6e9419b2794b41f627a9c3180f1f
+  Valid from Wed Apr 02 08:00:00 SGT 2008 until Wed Dec 02 07:59:59 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Issuer:  CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Algorithm: RSA; Serial number: 0xa3da427ea4b1aeda
+  Valid from Fri Aug 01 20:29:50 SGT 2008 until Sat Jul 31 20:29:50 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
+  Issuer:  CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
+  Algorithm: RSA; Serial number: 0x4f1bd42f54bb2f4b
+  Valid from Wed Oct 25 16:32:46 SGT 2006 until Sat Oct 25 16:32:46 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Issuer:  CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x4a538c28
+  Valid from Wed Jul 08 01:25:54 SGT 2009 until Sun Dec 08 01:55:54 SGT 2030
+
+adding as trusted cert:
+  Subject: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0xce7e0e517d846fe8fe560fc1bf03039
+  Valid from Fri Nov 10 08:00:00 SGT 2006 until Mon Nov 10 08:00:00 SGT 2031
+
+adding as trusted cert:
+  Subject: OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+  Issuer:  OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Wed Jun 30 01:06:20 SGT 2004 until Fri Jun 30 01:06:20 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+  Issuer:  CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 30 18:48:38 SGT 2000 until Sat May 30 18:48:38 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+  Issuer:  CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Wed Oct 01 18:29:56 SGT 2008 until Sun Oct 02 07:59:59 SGT 2033
+
+adding as trusted cert:
+  Subject: CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: EC; Serial number: 0x55556bcf25ea43535c3a40fd5ab4572
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=UTN-USERFirst-Client Authentication and Email, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Issuer:  CN=UTN-USERFirst-Client Authentication and Email, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Algorithm: RSA; Serial number: 0x44be0c8b500024b411d336252567c989
+  Valid from Sat Jul 10 01:28:50 SGT 1999 until Wed Jul 10 01:36:58 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=Class 2 Primary CA, O=Certplus, C=FR
+  Issuer:  CN=Class 2 Primary CA, O=Certplus, C=FR
+  Algorithm: RSA; Serial number: 0x85bd4bf3d8dae369f694d75fc3a54423
+  Valid from Thu Jul 08 01:05:00 SGT 1999 until Sun Jul 07 07:59:59 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  Algorithm: RSA; Serial number: 0x23456
+  Valid from Tue May 21 12:00:00 SGT 2002 until Sat May 21 12:00:00 SGT 2022
+
+adding as trusted cert:
+  Subject: CN=SPCert
+  Issuer:  CN=SPCert
+  Algorithm: RSA; Serial number: 0x5a8c8fad2b1a1bb34e95c45b28ca74d7
+  Valid from Thu Dec 04 20:35:06 SGT 2014 until Wed Dec 04 20:45:00 SGT 2024
+
+adding as trusted cert:
+  Subject: CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH
+  Issuer:  CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH
+  Algorithm: RSA; Serial number: 0x4eb200670c035d4f
+  Valid from Wed Oct 25 16:36:00 SGT 2006 until Sat Oct 25 16:36:00 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5
+  Issuer:  CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5
+  Algorithm: EC; Serial number: 0x605949e0262ebb55f90a778a71f94ad86c
+  Valid from Tue Nov 13 08:00:00 SGT 2012 until Tue Jan 19 11:14:07 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x6170cb498c5f984529e7b0a6d9505b7a
+  Valid from Fri Oct 01 08:00:00 SGT 1999 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Issuer:  CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Tue Sep 01 08:00:00 SGT 2009 until Fri Jan 01 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US
+  Issuer:  CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US
+  Algorithm: RSA; Serial number: 0xa0142800000014523cf467c00000002
+  Valid from Fri Jan 17 01:53:32 SGT 2014 until Tue Jan 17 01:53:32 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Issuer:  CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Algorithm: RSA; Serial number: 0x3863def8
+  Valid from Sat Dec 25 01:50:51 SGT 1999 until Tue Jul 24 22:15:12 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=TeliaSonera Root CA v1, O=TeliaSonera
+  Issuer:  CN=TeliaSonera Root CA v1, O=TeliaSonera
+  Algorithm: RSA; Serial number: 0x95be16a0f72e46f17b398272fa8bcd96
+  Valid from Thu Oct 18 20:00:50 SGT 2007 until Mon Oct 18 20:00:50 SGT 2032
+
+adding as trusted cert:
+  Subject: CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+  Issuer:  CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x344ed55720d5edec49f42fce37db2b6d
+  Valid from Fri Nov 17 08:00:00 SGT 2006 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Issuer:  CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Tue Sep 01 08:00:00 SGT 2009 until Fri Jan 01 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 1 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 1 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x8b5b75568454850b00cfaf3848ceb1a4
+  Valid from Fri Oct 01 08:00:00 SGT 1999 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: EC; Serial number: 0x2f80fe238c0e220f486712289187acb3
+  Valid from Mon Nov 05 08:00:00 SGT 2007 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+  Issuer:  CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x456b5054
+  Valid from Tue Nov 28 04:23:42 SGT 2006 until Sat Nov 28 04:53:42 SGT 2026
+
+adding as trusted cert:
+  Subject: CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0xb931c3ad63967ea6723bfc3af9af44b
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=Certum CA, O=Unizeto Sp. z o.o., C=PL
+  Issuer:  CN=Certum CA, O=Unizeto Sp. z o.o., C=PL
+  Algorithm: RSA; Serial number: 0x10020
+  Valid from Tue Jun 11 18:46:39 SGT 2002 until Fri Jun 11 18:46:39 SGT 2027
+
+adding as trusted cert:
+  Subject: CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+  Issuer:  CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 30 18:44:50 SGT 2000 until Sat May 30 18:44:50 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=DST Root CA X3, O=Digital Signature Trust Co.
+  Issuer:  CN=DST Root CA X3, O=Digital Signature Trust Co.
+  Algorithm: RSA; Serial number: 0x44afb080d6a327ba893039862ef8406b
+  Valid from Sun Oct 01 05:12:19 SGT 2000 until Thu Sep 30 22:01:15 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO
+  Issuer:  CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO
+  Algorithm: RSA; Serial number: 0x2
+  Valid from Tue Oct 26 16:38:03 SGT 2010 until Fri Oct 26 16:38:03 SGT 2040
+
+adding as trusted cert:
+  Subject: CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE
+  Issuer:  CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE
+  Algorithm: RSA; Serial number: 0x983f4
+  Valid from Thu Nov 05 16:50:46 SGT 2009 until Mon Nov 05 16:50:46 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: EC; Serial number: 0xba15afa1ddfa0b54944afcd24a06cec
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH
+  Issuer:  CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH
+  Algorithm: RSA; Serial number: 0xbb401c43f55e4fb0
+  Valid from Wed Oct 25 16:30:35 SGT 2006 until Sat Oct 25 16:30:35 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Issuer:  CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Algorithm: EC; Serial number: 0x5c8b99c55a94c5d27156decd8980cc26
+  Valid from Mon Feb 01 08:00:00 SGT 2010 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US
+  Issuer:  CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US
+  Algorithm: RSA; Serial number: 0xa0142800000014523c844b500000002
+  Valid from Fri Jan 17 02:12:23 SGT 2014 until Tue Jan 17 02:12:23 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x509
+  Valid from Sat Nov 25 02:27:00 SGT 2006 until Tue Nov 25 02:23:33 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+  Issuer:  CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+  Algorithm: RSA; Serial number: 0x26
+  Valid from Fri Jul 09 20:11:00 SGT 1999 until Wed Jul 10 07:59:00 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE
+  Issuer:  CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE
+  Algorithm: RSA; Serial number: 0x983f3
+  Valid from Thu Nov 05 16:35:58 SGT 2009 until Mon Nov 05 16:35:58 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x78585f2ead2c194be3370735341328b596d46593
+  Valid from Fri Jan 13 01:27:44 SGT 2012 until Mon Jan 13 01:27:44 SGT 2042
+
+adding as trusted cert:
+  Subject: OU=Class 1 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+  Issuer:  OU=Class 1 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x3f691e819cf09a4af373ffb948a2e4dd
+  Valid from Mon Jan 29 08:00:00 SGT 1996 until Thu Aug 03 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Issuer:  CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Algorithm: RSA; Serial number: 0x1fd6d30fca3ca51a81bbc640e35032d
+  Valid from Mon Feb 01 08:00:00 SGT 2010 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 2 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Issuer:  OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 2 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0xb92f60cc889fa17a4609b85b706c8aaf
+  Valid from Mon May 18 08:00:00 SGT 1998 until Wed Aug 02 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2
+  Issuer:  CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2
+  Algorithm: RSA; Serial number: 0x400000000010f8626e60d
+  Valid from Fri Dec 15 16:00:00 SGT 2006 until Wed Dec 15 16:00:00 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x18dad19e267de8bb4a2158cdcc6b3b4a
+  Valid from Wed Nov 08 08:00:00 SGT 2006 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x5c6
+  Valid from Sat Nov 25 03:11:23 SGT 2006 until Tue Nov 25 03:06:44 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Issuer:  CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Tue Sep 01 08:00:00 SGT 2009 until Fri Jan 01 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=Swisscom Root CA 2, OU=Digital Certificate Services, O=Swisscom, C=ch
+  Issuer:  CN=Swisscom Root CA 2, OU=Digital Certificate Services, O=Swisscom, C=ch
+  Algorithm: RSA; Serial number: 0x1e9e28e848f2e5efc37c4a1e5a1867b6
+  Valid from Fri Jun 24 16:38:14 SGT 2011 until Wed Jun 25 15:38:14 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x2ef59b0228a7db7affd5a3a9eebd03a0cf126a1d
+  Valid from Fri Jan 13 04:26:32 SGT 2012 until Mon Jan 13 04:26:32 SGT 2042
+
+adding as trusted cert:
+  Subject: CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT
+  Issuer:  CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT
+  Algorithm: RSA; Serial number: 0x570a119742c4e3cc
+  Valid from Thu Sep 22 19:22:02 SGT 2011 until Sun Sep 22 19:22:02 SGT 2030
+
+adding as trusted cert:
+  Subject: CN=SPQAMAuth.qasp.local
+  Issuer:  CN=SPQAMAuth.qasp.local
+  Algorithm: RSA; Serial number: 0x107d69efb46a45b34140013707328c14
+  Valid from Mon Oct 09 15:53:11 SGT 2017 until Fri Oct 09 16:03:00 SGT 2037
+
+adding as trusted cert:
+  Subject: OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+  Issuer:  OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x3c9131cb1ff6d01b0e9ab8d044bf12be
+  Valid from Mon Jan 29 08:00:00 SGT 1996 until Thu Aug 03 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x3ab6508b
+  Valid from Tue Mar 20 02:33:33 SGT 2001 until Thu Mar 18 02:33:33 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=Class 3P Primary CA, O=Certplus, C=FR
+  Issuer:  CN=Class 3P Primary CA, O=Certplus, C=FR
+  Algorithm: RSA; Serial number: 0xbf5cdbb6f21c6ec04deb7a023b36e879
+  Valid from Thu Jul 08 01:10:00 SGT 1999 until Sun Jul 07 07:59:59 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO
+  Issuer:  CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO
+  Algorithm: RSA; Serial number: 0x2
+  Valid from Tue Oct 26 16:28:58 SGT 2010 until Fri Oct 26 16:28:58 SGT 2040
+
+adding as trusted cert:
+  Subject: OU=Security Communication EV RootCA1, O="SECOM Trust Systems CO.,LTD.", C=JP
+  Issuer:  OU=Security Communication EV RootCA1, O="SECOM Trust Systems CO.,LTD.", C=JP
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Wed Jun 06 10:12:32 SGT 2007 until Sat Jun 06 10:12:32 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US
+  Issuer:  CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US
+  Algorithm: RSA; Serial number: 0x59e3
+  Valid from Mon Jun 21 12:00:00 SGT 1999 until Mon Jun 22 12:00:00 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US
+  Issuer:  CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US
+  Algorithm: EC; Serial number: 0x35fc265cd9844fc93d263d579baed756
+  Valid from Mon Nov 05 08:00:00 SGT 2007 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x401ac46421b31321030ebbe4121ac51d
+  Valid from Wed Apr 02 08:00:00 SGT 2008 until Wed Dec 02 07:59:59 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=AddTrust Class 1 CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+  Issuer:  CN=AddTrust Class 1 CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 30 18:38:31 SGT 2000 until Sat May 30 18:38:31 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4
+  Issuer:  CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4
+  Algorithm: EC; Serial number: 0x2a38a41c960a04de42b228a50be8349802
+  Valid from Tue Nov 13 08:00:00 SGT 2012 until Tue Jan 19 11:14:07 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Issuer:  CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Algorithm: RSA; Serial number: 0xc9cdd3e9d57d23ce
+  Valid from Fri Aug 01 20:31:40 SGT 2008 until Sat Jul 31 20:31:40 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+  Issuer:  CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x600197b746a7eab4b49ad64b2ff790fb
+  Valid from Wed Apr 02 08:00:00 SGT 2008 until Wed Dec 02 07:59:59 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Issuer:  CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Algorithm: RSA; Serial number: 0x4caaf9cadb636fe01ff74ed85b03869d
+  Valid from Tue Jan 19 08:00:00 SGT 2010 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=GTE CyberTrust Global Root, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
+  Issuer:  CN=GTE CyberTrust Global Root, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
+  Algorithm: RSA; Serial number: 0x1a5
+  Valid from Thu Aug 13 08:29:00 SGT 1998 until Tue Aug 14 07:59:00 SGT 2018
+
+adding as trusted cert:
+  Subject: EMAILADDRESS=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA
+  Issuer:  EMAILADDRESS=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA
+  Algorithm: RSA; Serial number: 0x36122296c5e338a520a1d25f4cd70954
+  Valid from Thu Aug 01 08:00:00 SGT 1996 until Sat Jan 02 07:59:59 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US
+  Issuer:  CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US
+  Algorithm: EC; Serial number: 0x7497258ac73f7a54
+  Valid from Fri Jan 29 22:20:24 SGT 2010 until Mon Dec 31 22:20:24 SGT 2040
+
+adding as trusted cert:
+  Subject: CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+  Issuer:  CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Wed Oct 01 18:40:14 SGT 2008 until Sun Oct 02 07:59:59 SGT 2033
+
+adding as trusted cert:
+  Subject: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 1 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Issuer:  OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 1 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x4cc7eaaa983e71d39310f83d3a899192
+  Valid from Mon May 18 08:00:00 SGT 1998 until Wed Aug 02 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=KEYNECTIS ROOT CA, OU=ROOT, O=KEYNECTIS, C=FR
+  Issuer:  CN=KEYNECTIS ROOT CA, OU=ROOT, O=KEYNECTIS, C=FR
+  Algorithm: RSA; Serial number: 0x1121bc276c5547af584eefd4ced629b2a285
+  Valid from Tue May 26 08:00:00 SGT 2009 until Tue May 26 08:00:00 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0x33af1e6a711a9a0bb2864b11d09fae5
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+keyStore is : 
+keyStore type is : jks
+keyStore provider is : 
+init keystore
+init keymanager of type SunX509
+trigger seeding of SecureRandom
+done seeding SecureRandom
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+main, setSoTimeout(0) called
+main, the previous server name in SNI (type=host_name (0), value=nmsim01.fste01.sap.local) was replaced with (type=host_name (0), value=nmsim01.fste01.sap.local)
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 for TLSv1.1
+%% No cached client session
+*** ClientHello, TLSv1.2
+RandomCookie:  GMT: 1545207744 bytes = { 186, 249, 123, 113, 152, 142, 104, 101, 245, 51, 20, 51, 71, 84, 164, 127, 96, 3, 57, 201, 160, 154, 9, 240, 122, 225, 165, 88 }
+Session ID:  {}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, secp384r1, secp521r1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1, secp256k1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA256withDSA, SHA1withECDSA, SHA1withRSA, SHA1withDSA
+Extension extended_master_secret
+Extension server_name, server_name: [type=host_name (0), value=nmsim01.fste01.sap.local]
+***
+[write] MD5 and SHA1 hashes:  len = 226
+0000: 01 00 00 DE 03 03 5C 1A   00 C0 BA F9 7B 71 98 8E  ......\......q..
+0010: 68 65 F5 33 14 33 47 54   A4 7F 60 03 39 C9 A0 9A  he.3.3GT..`.9...
+0020: 09 F0 7A E1 A5 58 00 00   56 C0 24 C0 28 00 3D C0  ..z..X..V.$.(.=.
+0030: 26 C0 2A 00 6B 00 6A C0   0A C0 14 00 35 C0 05 C0  &.*.k.j.....5...
+0040: 0F 00 39 00 38 C0 23 C0   27 00 3C C0 25 C0 29 00  ..9.8.#.'.<.%.).
+0050: 67 00 40 C0 09 C0 13 00   2F C0 04 C0 0E 00 33 00  g.@...../.....3.
+0060: 32 C0 2C C0 2B C0 30 00   9D C0 2E C0 32 00 9F 00  2.,.+.0.....2...
+0070: A3 C0 2F 00 9C C0 2D C0   31 00 9E 00 A2 00 FF 01  ../...-.1.......
+0080: 00 00 5F 00 0A 00 16 00   14 00 17 00 18 00 19 00  .._.............
+0090: 09 00 0A 00 0B 00 0C 00   0D 00 0E 00 16 00 0B 00  ................
+00A0: 02 01 00 00 0D 00 16 00   14 06 03 06 01 05 03 05  ................
+00B0: 01 04 03 04 01 04 02 02   03 02 01 02 02 00 17 00  ................
+00C0: 00 00 00 00 1D 00 1B 00   00 18 6E 6D 73 69 6D 30  ..........nmsim0
+00D0: 31 2E 66 73 74 65 30 31   2E 73 61 70 2E 6C 6F 63  1.fste01.sap.loc
+00E0: 61 6C                                              al
+main, WRITE: TLSv1.2 Handshake, length = 226
+[Raw write]: length = 231
+0000: 16 03 03 00 E2 01 00 00   DE 03 03 5C 1A 00 C0 BA  ...........\....
+0010: F9 7B 71 98 8E 68 65 F5   33 14 33 47 54 A4 7F 60  ..q..he.3.3GT..`
+0020: 03 39 C9 A0 9A 09 F0 7A   E1 A5 58 00 00 56 C0 24  .9.....z..X..V.$
+0030: C0 28 00 3D C0 26 C0 2A   00 6B 00 6A C0 0A C0 14  .(.=.&.*.k.j....
+0040: 00 35 C0 05 C0 0F 00 39   00 38 C0 23 C0 27 00 3C  .5.....9.8.#.'.<
+0050: C0 25 C0 29 00 67 00 40   C0 09 C0 13 00 2F C0 04  .%.).g.@...../..
+0060: C0 0E 00 33 00 32 C0 2C   C0 2B C0 30 00 9D C0 2E  ...3.2.,.+.0....
+0070: C0 32 00 9F 00 A3 C0 2F   00 9C C0 2D C0 31 00 9E  .2...../...-.1..
+0080: 00 A2 00 FF 01 00 00 5F   00 0A 00 16 00 14 00 17  ......._........
+0090: 00 18 00 19 00 09 00 0A   00 0B 00 0C 00 0D 00 0E  ................
+00A0: 00 16 00 0B 00 02 01 00   00 0D 00 16 00 14 06 03  ................
+00B0: 06 01 05 03 05 01 04 03   04 01 04 02 02 03 02 01  ................
+00C0: 02 02 00 17 00 00 00 00   00 1D 00 1B 00 00 18 6E  ...............n
+00D0: 6D 73 69 6D 30 31 2E 66   73 74 65 30 31 2E 73 61  msim01.fste01.sa
+00E0: 70 2E 6C 6F 63 61 6C                               p.local
+[Raw read]: length = 5
+0000: 16 03 03 09 ED                                     .....
+[Raw read]: length = 2541
+0000: 02 00 00 51 03 03 5C 1A   00 C1 F6 F3 6E 5A BA 3B  ...Q..\.....nZ.;
+0010: D8 18 BB 18 27 78 6A A9   C5 D2 4B D4 8D ED 00 47  ....'xj...K....G
+0020: 19 01 D2 7E 32 55 20 5C   1A 00 C1 85 0F EF 36 F7  ....2U \......6.
+0030: 14 B0 A1 42 A8 1F F4 21   C0 29 AD 02 CC 1F FC 8D  ...B...!.)......
+0040: 5F BB B3 1C 0F 74 F7 C0   28 00 00 09 FF 01 00 01  _....t..(.......
+0050: 00 00 17 00 00 0B 00 07   19 00 07 16 00 07 13 30  ...............0
+0060: 82 07 0F 30 82 04 F7 A0   03 02 01 02 02 13 15 00  ...0............
+0070: 00 00 B0 5C BE 5F 43 59   87 47 60 00 01 00 00 00  ...\._CY.G`.....
+0080: B0 30 0D 06 09 2A 86 48   86 F7 0D 01 01 0B 05 00  .0...*.H........
+0090: 30 3D 31 15 30 13 06 0A   09 92 26 89 93 F2 2C 64  0=1.0.....&...,d
+00A0: 01 19 16 05 6C 6F 63 61   6C 31 13 30 11 06 0A 09  ....local1.0....
+00B0: 92 26 89 93 F2 2C 64 01   19 16 03 53 41 50 31 0F  .&...,d....SAP1.
+00C0: 30 0D 06 03 55 04 03 13   06 53 50 41 75 74 68 30  0...U....SPAuth0
+00D0: 1E 17 0D 31 38 30 38 30   33 30 36 33 30 33 38 5A  ...180803063038Z
+00E0: 17 0D 32 31 30 38 30 32   30 36 33 30 33 38 5A 30  ..210802063038Z0
+00F0: 78 31 0B 30 09 06 03 55   04 06 13 02 53 47 31 12  x1.0...U....SG1.
+0100: 30 10 06 03 55 04 08 13   09 53 69 6E 67 61 70 6F  0...U....Singapo
+0110: 72 65 31 12 30 10 06 03   55 04 07 13 09 53 69 6E  re1.0...U....Sin
+0120: 67 61 70 6F 72 65 31 10   30 0E 06 03 55 04 0A 13  gapore1.0...U...
+0130: 07 53 50 47 72 6F 75 70   31 0C 30 0A 06 03 55 04  .SPGroup1.0...U.
+0140: 0B 13 03 49 54 44 31 21   30 1F 06 03 55 04 03 13  ...ITD1!0...U...
+0150: 18 6E 6D 73 69 6D 30 31   2E 66 73 74 65 30 31 2E  .nmsim01.fste01.
+0160: 73 61 70 2E 6C 6F 63 61   6C 30 82 01 22 30 0D 06  sap.local0.."0..
+0170: 09 2A 86 48 86 F7 0D 01   01 01 05 00 03 82 01 0F  .*.H............
+0180: 00 30 82 01 0A 02 82 01   01 00 BC 4C DC EA 35 E0  .0.........L..5.
+0190: 52 EA DB 66 E8 9C 43 A9   CC 4B 8A B8 81 DD AA 4C  R..f..C..K.....L
+01A0: 6C EA E1 55 25 64 83 03   C9 F9 B8 17 3A BE A9 DE  l..U%d......:...
+01B0: 76 19 CC 09 37 C2 C0 23   17 81 EA B5 E1 14 B0 67  v...7..#.......g
+01C0: C8 EA 50 EF 66 70 91 8C   15 01 85 F3 74 A9 A5 F0  ..P.fp......t...
+01D0: 4C 84 7F 1E 85 E2 8F 87   9E 94 EB 27 3B F5 AB E3  L..........';...
+01E0: DC 5C 49 9D 51 83 78 46   06 B8 82 14 BC 00 87 E7  .\I.Q.xF........
+01F0: B1 40 05 8A 85 18 42 45   77 81 99 81 84 AB 4D 08  .@....BEw.....M.
+0200: FA 21 FB 3D 80 C4 50 FC   30 A6 64 9E F6 09 5A 08  .!.=..P.0.d...Z.
+0210: BB 70 F0 C3 09 4F 53 F9   08 A8 CB 9A 57 85 1D B2  .p...OS.....W...
+0220: CE 0E 70 BD 99 82 B1 70   0E 34 DC F5 75 B3 3B AB  ..p....p.4..u.;.
+0230: AF F6 78 06 98 CA 9C BA   CA 7B 82 FD 83 AB E3 8A  ..x.............
+0240: A8 85 23 44 4B 8A B1 00   1B FC 56 A1 EF 86 C8 F2  ..#DK.....V.....
+0250: D2 52 6F 41 29 1E 98 73   71 7C 84 2E C5 C5 58 86  .RoA)..sq.....X.
+0260: 9D 94 75 5C 4D BF 36 21   39 CA 56 26 17 2F CA 39  ..u\M.6!9.V&./.9
+0270: C2 51 59 32 07 89 34 AA   25 D0 FF A7 68 69 F7 00  .QY2..4.%...hi..
+0280: 54 6A 49 3D EB 19 77 79   CB BF 02 03 01 00 01 A3  TjI=..wy........
+0290: 82 02 CB 30 82 02 C7 30   23 06 03 55 1D 11 04 1C  ...0...0#..U....
+02A0: 30 1A 82 18 6E 6D 73 69   6D 30 31 2E 66 73 74 65  0...nmsim01.fste
+02B0: 30 31 2E 73 61 70 2E 6C   6F 63 61 6C 30 1D 06 03  01.sap.local0...
+02C0: 55 1D 0E 04 16 04 14 79   98 FE CE B9 5C CA 93 D0  U......y....\...
+02D0: 54 E3 F8 8F 2D 79 09 5D   C2 74 90 30 1F 06 03 55  T...-y.].t.0...U
+02E0: 1D 23 04 18 30 16 80 14   55 DC DB 78 4A E6 48 27  .#..0...U..xJ.H'
+02F0: 18 1B C4 DF B4 73 BC 12   4E 5D 41 17 30 81 E5 06  .....s..N]A.0...
+0300: 03 55 1D 1F 04 81 DD 30   81 DA 30 81 D7 A0 81 D4  .U.....0..0.....
+0310: A0 81 D1 86 2A 68 74 74   70 3A 2F 2F 73 70 63 72  ....*http://spcr
+0320: 6C 70 72 6F 64 31 2E 73   61 70 2E 6C 6F 63 61 6C  lprod1.sap.local
+0330: 2F 43 52 4C 2F 53 50 5F   43 52 4C 2E 63 72 6C 86  /CRL/SP_CRL.crl.
+0340: 2A 68 74 74 70 3A 2F 2F   73 70 63 72 6C 70 72 6F  *http://spcrlpro
+0350: 64 32 2E 73 61 70 2E 6C   6F 63 61 6C 2F 43 52 4C  d2.sap.local/CRL
+0360: 2F 53 50 5F 43 52 4C 2E   63 72 6C 86 77 6C 64 61  /SP_CRL.crl.wlda
+0370: 70 3A 2F 2F 2F 43 4E 3D   53 50 5F 43 52 4C 2C 43  p:///CN=SP_CRL,C
+0380: 4E 3D 50 50 4B 49 49 43   41 31 2C 43 4E 3D 43 44  N=PPKIICA1,CN=CD
+0390: 50 2C 43 4E 3D 50 75 62   6C 69 63 25 32 30 4B 65  P,CN=Public%20Ke
+03A0: 79 25 32 30 53 65 72 76   69 63 65 73 2C 43 4E 3D  y%20Services,CN=
+03B0: 53 65 72 76 69 63 65 73   2C 43 4E 3D 43 6F 6E 66  Services,CN=Conf
+03C0: 69 67 75 72 61 74 69 6F   6E 2C 44 43 3D 73 69 6E  iguration,DC=sin
+03D0: 67 61 70 6F 72 65 70 6F   77 65 72 2C 44 43 3D 6C  gaporepower,DC=l
+03E0: 6F 63 61 6C 30 81 F9 06   08 2B 06 01 05 05 07 01  ocal0....+......
+03F0: 01 04 81 EC 30 81 E9 30   36 06 08 2B 06 01 05 05  ....0..06..+....
+0400: 07 30 02 86 2A 68 74 74   70 3A 2F 2F 73 70 63 72  .0..*http://spcr
+0410: 6C 70 72 6F 64 31 2E 73   61 70 2E 6C 6F 63 61 6C  lprod1.sap.local
+0420: 2F 41 49 41 2F 53 50 41   75 74 68 2E 63 72 74 30  /AIA/SPAuth.crt0
+0430: 36 06 08 2B 06 01 05 05   07 30 02 86 2A 68 74 74  6..+.....0..*htt
+0440: 70 3A 2F 2F 73 70 63 72   6C 70 72 6F 64 32 2E 73  p://spcrlprod2.s
+0450: 61 70 2E 6C 6F 63 61 6C   2F 41 49 41 2F 53 50 41  ap.local/AIA/SPA
+0460: 75 74 68 2E 63 72 74 30   77 06 08 2B 06 01 05 05  uth.crt0w..+....
+0470: 07 30 02 86 6B 6C 64 61   70 3A 2F 2F 2F 63 6E 3D  .0..kldap:///cn=
+0480: 53 50 41 75 74 68 2C 63   6E 3D 41 49 41 2C 63 6E  SPAuth,cn=AIA,cn
+0490: 3D 50 55 42 4C 49 43 25   32 30 4B 45 59 25 32 30  =PUBLIC%20KEY%20
+04A0: 53 45 52 56 49 43 45 53   2C 63 6E 3D 53 45 52 56  SERVICES,cn=SERV
+04B0: 49 43 45 53 2C 63 6E 3D   43 4F 4E 46 49 47 55 52  ICES,cn=CONFIGUR
+04C0: 41 54 49 4F 4E 2C 64 63   3D 53 49 4E 47 41 50 4F  ATION,dc=SINGAPO
+04D0: 52 45 50 4F 57 45 52 2C   64 63 3D 4C 4F 43 41 4C  REPOWER,dc=LOCAL
+04E0: 30 0B 06 03 55 1D 0F 04   04 03 02 05 A0 30 3D 06  0...U........0=.
+04F0: 09 2B 06 01 04 01 82 37   15 07 04 30 30 2E 06 26  .+.....7...00..&
+0500: 2B 06 01 04 01 82 37 15   08 86 E6 9F 0A 8E B8 7B  +.....7.........
+0510: 82 D9 8F 2A 82 F8 A0 4C   83 89 D4 58 81 2A 87 8D  ...*...L...X.*..
+0520: E7 65 87 D4 B4 37 02 01   64 02 01 06 30 13 06 03  .e...7..d...0...
+0530: 55 1D 25 04 0C 30 0A 06   08 2B 06 01 05 05 07 03  U.%..0...+......
+0540: 01 30 1B 06 09 2B 06 01   04 01 82 37 15 0A 04 0E  .0...+.....7....
+0550: 30 0C 30 0A 06 08 2B 06   01 05 05 07 03 01 30 0D  0.0...+.......0.
+0560: 06 09 2A 86 48 86 F7 0D   01 01 0B 05 00 03 82 02  ..*.H...........
+0570: 01 00 63 70 52 73 80 B9   1F B4 59 68 9B 7D E8 87  ..cpRs....Yh....
+0580: 45 C3 0E 82 3E 1F 9A 3A   F9 E0 4F 1E DA 76 4E 1F  E...>..:..O..vN.
+0590: 28 F6 BF 3D EA 59 C3 8A   D0 7A 69 5E 88 D1 85 54  (..=.Y...zi^...T
+05A0: C7 52 C1 D1 F0 7D 6C 6E   73 07 38 F2 F3 61 A8 84  .R....lns.8..a..
+05B0: 68 70 03 AB E8 91 D1 82   B2 2E 0F D6 98 D5 97 50  hp.............P
+05C0: C9 23 A8 76 1A C3 6A 7D   84 D0 E3 0E 30 9F E3 AB  .#.v..j.....0...
+05D0: 34 DD 62 E0 21 68 C9 F5   2C D3 50 1B C5 A0 87 27  4.b.!h..,.P....'
+05E0: EA 2D A0 58 09 56 B7 24   81 5E 9F CC 3B 46 7C 8A  .-.X.V.$.^..;F..
+05F0: A9 A0 7A C2 2C 30 EA 24   7F 34 EE 90 B2 38 78 FA  ..z.,0.$.4...8x.
+0600: BD D9 4F 94 BD 71 11 04   86 D1 7F AD A5 C7 91 0E  ..O..q..........
+0610: 00 A2 26 B0 D2 C3 A1 93   C5 8D 27 CE 7D 88 7F BC  ..&.......'.....
+0620: DE 90 D5 C5 BD 7D A1 47   12 A0 38 D7 E8 64 AE 89  .......G..8..d..
+0630: C7 F5 5F 34 62 EA DE 06   58 3A D6 AD 44 A6 F5 E0  .._4b...X:..D...
+0640: F3 BA 36 17 65 36 9E AF   72 FA 2C 0D 45 69 95 B0  ..6.e6..r.,.Ei..
+0650: 98 3C 13 C4 26 28 26 94   3A 48 B5 78 25 45 DF A4  .<..&(&.:H.x%E..
+0660: BA 46 20 2C B3 E2 1D 91   35 FE D8 4D 9C 8E 3F 5E  .F ,....5..M..?^
+0670: 19 0F 7A F0 CB B8 A6 32   99 CA C9 AB AA EA B2 A0  ..z....2........
+0680: B2 4D B5 9D 3A 3E 06 2B   A7 13 FD 13 5B FF D5 55  .M..:>.+....[..U
+0690: 12 10 9E 49 AD 40 A6 A2   85 0A D5 DC 44 D9 78 BD  ...I.@......D.x.
+06A0: 9A 62 1D 30 2E 7E A9 ED   AD 1C E3 28 D1 12 77 07  .b.0.......(..w.
+06B0: DC 90 0F 37 C8 EA 6D 75   52 66 6A 87 04 C5 D4 38  ...7..muRfj....8
+06C0: 00 B1 86 A4 08 74 D0 F5   D5 2C 0D 9C EC 06 7C 4F  .....t...,.....O
+06D0: 60 70 FA 38 DF C4 80 A5   B4 9C C0 D1 29 64 1B 43  `p.8........)d.C
+06E0: 74 5A 47 89 FA 59 5B B0   5E 90 CE D4 4B 81 BA E4  tZG..Y[.^...K...
+06F0: 80 2C 04 DD A7 DE 70 68   A4 AF 0C B4 B3 7B 25 7F  .,....ph......%.
+0700: CB 96 EB 52 E0 88 EC F8   5F E7 60 1A 94 FB BC ED  ...R...._.`.....
+0710: C6 58 4B A1 D9 C3 4B 73   7C 99 31 7D ED 40 E2 0F  .XK...Ks..1..@..
+0720: 68 04 27 16 EC 16 AB 77   00 C5 A5 E2 17 E0 2A 79  h.'....w......*y
+0730: 37 F1 20 2E 33 EF F4 3A   4C C5 3C 79 79 71 A0 76  7. .3..:L.<yyq.v
+0740: EF F9 10 78 48 DE 56 3A   D6 B3 32 F4 E1 1D AD 07  ...xH.V:..2.....
+0750: 90 C0 90 FD 65 62 05 6B   DA 0F 1F E4 5E D8 60 D0  ....eb.k....^.`.
+0760: B5 D5 23 A5 6B DB 32 4B   87 1C 14 87 47 D2 30 2C  ..#.k.2K....G.0,
+0770: 3B CF 0C 00 01 49 03 00   17 41 04 A2 83 7B DD D0  ;....I...A......
+0780: 90 F0 12 68 0E A9 46 DA   B0 AD 13 58 F4 15 11 5A  ...h..F....X...Z
+0790: E3 DC 4C 3D 9D 16 DD 71   04 01 2E A7 F3 40 F4 E1  ..L=...q.....@..
+07A0: 0F 68 6B 9F 4D B3 1E 1F   FA 0A 49 F4 68 F4 EA F7  .hk.M.....I.h...
+07B0: AC 02 11 C2 0E 3F FF CF   F1 2B 48 06 01 01 00 B0  .....?...+H.....
+07C0: AD 82 A4 D1 AE 5A F4 20   D3 5B 82 CE 03 62 88 C4  .....Z. .[...b..
+07D0: 00 9A 39 E9 C2 02 25 49   6D D0 6A F8 02 F8 8A A9  ..9...%Im.j.....
+07E0: 23 93 82 A4 A6 D0 FD C0   55 0B 94 FB 32 B9 F8 F6  #.......U...2...
+07F0: 38 2F D4 44 F9 3C 9B C0   C2 E4 B0 FA 86 34 E7 6E  8/.D.<.......4.n
+0800: C6 F6 2D 5C B8 1D CC 8B   81 10 EE BD 94 96 AA 45  ..-\...........E
+0810: D3 5F F7 9A 7D 2F 2A 14   BD BB 7B 24 32 9E EF AC  ._.../*....$2...
+0820: EA 74 B8 41 3D 21 1B 0D   1B 2F 7B 0D 59 BB 67 75  .t.A=!.../..Y.gu
+0830: 0F 50 18 14 49 C4 4B 7D   A7 1A B6 34 83 28 00 E0  .P..I.K....4.(..
+0840: 04 1F C4 98 D5 1E EA A6   31 10 8A 88 1B 4D ED 94  ........1....M..
+0850: 3F 4D 19 3D 59 8C 73 AB   36 DB A1 8C 2E 27 C2 90  ?M.=Y.s.6....'..
+0860: 8B CC EB 8E 53 2C DD 81   2D 88 4F F8 87 21 E2 81  ....S,..-.O..!..
+0870: 62 58 D5 FC AE B4 22 31   17 E9 8A 58 79 9E 7E DA  bX...."1...Xy...
+0880: 6F 1D 3C 7A 4E 51 AB B7   2B 9C FE 67 61 92 B4 DE  o.<zNQ..+..ga...
+0890: 2A 82 B0 63 D9 1C C7 C5   8C 92 A6 03 E1 0E 48 8C  *..c..........H.
+08A0: B5 A8 BC 67 60 A3 6F 75   31 B3 AE 9A 59 42 F2 26  ...g`.ou1...YB.&
+08B0: 36 12 3C A4 39 D7 95 05   15 DE 77 D5 BA 21 3D 0D  6.<.9.....w..!=.
+08C0: 00 01 26 03 01 02 40 00   1A 06 03 06 01 05 03 05  ..&...@.........
+08D0: 01 04 03 04 01 04 02 03   03 03 01 03 02 02 03 02  ................
+08E0: 01 02 02 01 04 00 3F 30   3D 31 15 30 13 06 0A 09  ......?0=1.0....
+08F0: 92 26 89 93 F2 2C 64 01   19 16 05 6C 6F 63 61 6C  .&...,d....local
+0900: 31 13 30 11 06 0A 09 92   26 89 93 F2 2C 64 01 19  1.0.....&...,d..
+0910: 16 03 53 41 50 31 0F 30   0D 06 03 55 04 03 13 06  ..SAP1.0...U....
+0920: 53 50 41 75 74 68 00 4B   30 49 31 15 30 13 06 0A  SPAuth.K0I1.0...
+0930: 09 92 26 89 93 F2 2C 64   01 19 16 05 6C 6F 63 61  ..&...,d....loca
+0940: 6C 31 1E 30 1C 06 0A 09   92 26 89 93 F2 2C 64 01  l1.0.....&...,d.
+0950: 19 16 0E 73 69 6E 67 61   70 6F 72 65 70 6F 77 65  ...singaporepowe
+0960: 72 31 10 30 0E 06 03 55   04 03 13 07 53 50 4D 41  r1.0...U....SPMA
+0970: 75 74 68 00 74 30 72 31   0B 30 09 06 03 55 04 06  uth.t0r1.0...U..
+0980: 13 02 53 47 31 12 30 10   06 03 55 04 08 13 09 53  ..SG1.0...U....S
+0990: 69 6E 67 61 70 6F 72 65   31 12 30 10 06 03 55 04  ingapore1.0...U.
+09A0: 07 13 09 53 69 6E 67 61   70 6F 72 65 31 10 30 0E  ...Singapore1.0.
+09B0: 06 03 55 04 0A 13 07 53   50 47 72 6F 75 70 31 0C  ..U....SPGroup1.
+09C0: 30 0A 06 03 55 04 0B 13   03 49 54 44 31 1B 30 19  0...U....ITD1.0.
+09D0: 06 03 55 04 03 13 12 71   70 70 6D 73 62 73 31 2E  ..U....qppmsbs1.
+09E0: 73 61 70 2E 6C 6F 63 61   6C 0E 00 00 00           sap.local....
+main, READ: TLSv1.2 Handshake, length = 2541
+*** ServerHello, TLSv1.2
+RandomCookie:  GMT: 1545207745 bytes = { 246, 243, 110, 90, 186, 59, 216, 24, 187, 24, 39, 120, 106, 169, 197, 210, 75, 212, 141, 237, 0, 71, 25, 1, 210, 126, 50, 85 }
+Session ID:  {92, 26, 0, 193, 133, 15, 239, 54, 247, 20, 176, 161, 66, 168, 31, 244, 33, 192, 41, 173, 2, 204, 31, 252, 141, 95, 187, 179, 28, 15, 116, 247}
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+Extension extended_master_secret
+***
+%% Initialized:  [Session-1, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]
+** TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+[read] MD5 and SHA1 hashes:  len = 85
+0000: 02 00 00 51 03 03 5C 1A   00 C1 F6 F3 6E 5A BA 3B  ...Q..\.....nZ.;
+0010: D8 18 BB 18 27 78 6A A9   C5 D2 4B D4 8D ED 00 47  ....'xj...K....G
+0020: 19 01 D2 7E 32 55 20 5C   1A 00 C1 85 0F EF 36 F7  ....2U \......6.
+0030: 14 B0 A1 42 A8 1F F4 21   C0 29 AD 02 CC 1F FC 8D  ...B...!.)......
+0040: 5F BB B3 1C 0F 74 F7 C0   28 00 00 09 FF 01 00 01  _....t..(.......
+0050: 00 00 17 00 00                                     .....
+*** Certificate chain
+chain [0] = [
+[
+  Version: V3
+  Subject: CN=nmsim01.fste01.sap.local, OU=ITD, O=SPGroup, L=Singapore, ST=Singapore, C=SG
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 23770703866303219246571596530986007919052882620687416390015623005735089428415697586469346243495871885542436310011711556983031815448717297162887392600171643119838289846781400122381397137589779278049658332244361384716148382787003002884869581654266951221674440779876401532199111858419193135598612064188373455297718400802245810908508054254184831313096510635164137714810808748346069365395280804259034369244335467308125153614514057326809322010084503823145417438239431758246033007173688645761526597445344187344074724286276640399137256947186918916127608169034631731609731841722064748120236702683828784566524847133046347516863
+  public exponent: 65537
+  Validity: [From: Fri Aug 03 14:30:38 SGT 2018,
+               To: Mon Aug 02 14:30:38 SGT 2021]
+  Issuer: CN=SPAuth, DC=SAP, DC=local
+  SerialNumber: [    15000000 b05cbe5f 43598747 60000100 0000b0]
+
+Certificate Extensions: 9
+[1]: ObjectId: 1.3.6.1.4.1.311.21.10 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 0E 30 0C 30 0A 06 08   2B 06 01 05 05 07 03 01  ..0.0...+.......
+
+
+[2]: ObjectId: 1.3.6.1.4.1.311.21.7 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 30 30 2E 06 26 2B 06   01 04 01 82 37 15 08 86  .00..&+.....7...
+0010: E6 9F 0A 8E B8 7B 82 D9   8F 2A 82 F8 A0 4C 83 89  .........*...L..
+0020: D4 58 81 2A 87 8D E7 65   87 D4 B4 37 02 01 64 02  .X.*...e...7..d.
+0030: 01 06                                              ..
+
+
+[3]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: caIssuers
+   accessLocation: URIName: http://spcrlprod1.sap.local/AIA/SPAuth.crt
+, 
+   accessMethod: caIssuers
+   accessLocation: URIName: http://spcrlprod2.sap.local/AIA/SPAuth.crt
+, 
+   accessMethod: caIssuers
+   accessLocation: URIName: ldap:///cn=SPAuth,cn=AIA,cn=PUBLIC%20KEY%20SERVICES,cn=SERVICES,cn=CONFIGURATION,dc=SINGAPOREPOWER,dc=LOCAL
+]
+]
+
+[4]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 55 DC DB 78 4A E6 48 27   18 1B C4 DF B4 73 BC 12  U..xJ.H'.....s..
+0010: 4E 5D 41 17                                        N]A.
+]
+]
+
+[5]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://spcrlprod1.sap.local/CRL/SP_CRL.crl, URIName: http://spcrlprod2.sap.local/CRL/SP_CRL.crl, URIName: ldap:///CN=SP_CRL,CN=PPKIICA1,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=singaporepower,DC=local]
+]]
+
+[6]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+]
+
+[7]: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  DigitalSignature
+  Key_Encipherment
+]
+
+[8]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: nmsim01.fste01.sap.local
+]
+
+[9]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 79 98 FE CE B9 5C CA 93   D0 54 E3 F8 8F 2D 79 09  y....\...T...-y.
+0010: 5D C2 74 90                                        ].t.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 63 70 52 73 80 B9 1F B4   59 68 9B 7D E8 87 45 C3  cpRs....Yh....E.
+0010: 0E 82 3E 1F 9A 3A F9 E0   4F 1E DA 76 4E 1F 28 F6  ..>..:..O..vN.(.
+0020: BF 3D EA 59 C3 8A D0 7A   69 5E 88 D1 85 54 C7 52  .=.Y...zi^...T.R
+0030: C1 D1 F0 7D 6C 6E 73 07   38 F2 F3 61 A8 84 68 70  ....lns.8..a..hp
+0040: 03 AB E8 91 D1 82 B2 2E   0F D6 98 D5 97 50 C9 23  .............P.#
+0050: A8 76 1A C3 6A 7D 84 D0   E3 0E 30 9F E3 AB 34 DD  .v..j.....0...4.
+0060: 62 E0 21 68 C9 F5 2C D3   50 1B C5 A0 87 27 EA 2D  b.!h..,.P....'.-
+0070: A0 58 09 56 B7 24 81 5E   9F CC 3B 46 7C 8A A9 A0  .X.V.$.^..;F....
+0080: 7A C2 2C 30 EA 24 7F 34   EE 90 B2 38 78 FA BD D9  z.,0.$.4...8x...
+0090: 4F 94 BD 71 11 04 86 D1   7F AD A5 C7 91 0E 00 A2  O..q............
+00A0: 26 B0 D2 C3 A1 93 C5 8D   27 CE 7D 88 7F BC DE 90  &.......'.......
+00B0: D5 C5 BD 7D A1 47 12 A0   38 D7 E8 64 AE 89 C7 F5  .....G..8..d....
+00C0: 5F 34 62 EA DE 06 58 3A   D6 AD 44 A6 F5 E0 F3 BA  _4b...X:..D.....
+00D0: 36 17 65 36 9E AF 72 FA   2C 0D 45 69 95 B0 98 3C  6.e6..r.,.Ei...<
+00E0: 13 C4 26 28 26 94 3A 48   B5 78 25 45 DF A4 BA 46  ..&(&.:H.x%E...F
+00F0: 20 2C B3 E2 1D 91 35 FE   D8 4D 9C 8E 3F 5E 19 0F   ,....5..M..?^..
+0100: 7A F0 CB B8 A6 32 99 CA   C9 AB AA EA B2 A0 B2 4D  z....2.........M
+0110: B5 9D 3A 3E 06 2B A7 13   FD 13 5B FF D5 55 12 10  ..:>.+....[..U..
+0120: 9E 49 AD 40 A6 A2 85 0A   D5 DC 44 D9 78 BD 9A 62  .I.@......D.x..b
+0130: 1D 30 2E 7E A9 ED AD 1C   E3 28 D1 12 77 07 DC 90  .0.......(..w...
+0140: 0F 37 C8 EA 6D 75 52 66   6A 87 04 C5 D4 38 00 B1  .7..muRfj....8..
+0150: 86 A4 08 74 D0 F5 D5 2C   0D 9C EC 06 7C 4F 60 70  ...t...,.....O`p
+0160: FA 38 DF C4 80 A5 B4 9C   C0 D1 29 64 1B 43 74 5A  .8........)d.CtZ
+0170: 47 89 FA 59 5B B0 5E 90   CE D4 4B 81 BA E4 80 2C  G..Y[.^...K....,
+0180: 04 DD A7 DE 70 68 A4 AF   0C B4 B3 7B 25 7F CB 96  ....ph......%...
+0190: EB 52 E0 88 EC F8 5F E7   60 1A 94 FB BC ED C6 58  .R...._.`......X
+01A0: 4B A1 D9 C3 4B 73 7C 99   31 7D ED 40 E2 0F 68 04  K...Ks..1..@..h.
+01B0: 27 16 EC 16 AB 77 00 C5   A5 E2 17 E0 2A 79 37 F1  '....w......*y7.
+01C0: 20 2E 33 EF F4 3A 4C C5   3C 79 79 71 A0 76 EF F9   .3..:L.<yyq.v..
+01D0: 10 78 48 DE 56 3A D6 B3   32 F4 E1 1D AD 07 90 C0  .xH.V:..2.......
+01E0: 90 FD 65 62 05 6B DA 0F   1F E4 5E D8 60 D0 B5 D5  ..eb.k....^.`...
+01F0: 23 A5 6B DB 32 4B 87 1C   14 87 47 D2 30 2C 3B CF  #.k.2K....G.0,;.
+
+]
+***
+%% Invalidated:  [Session-1, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]
+main, SEND TLSv1.2 ALERT:  fatal, description = certificate_unknown
+main, WRITE: TLSv1.2 Alert, length = 2
+[Raw write]: length = 7
+0000: 15 03 03 00 02 02 2E                               .......
+main, called closeSocket()
+main, handling exception: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+trustStore is: F:\soft\java\1.8\jre\lib\security\cacerts
+trustStore type is : jks
+trustStore provider is : 
+init truststore
+adding as trusted cert:
+  Subject: CN=Equifax Secure Global eBusiness CA-1, O=Equifax Secure Inc., C=US
+  Issuer:  CN=Equifax Secure Global eBusiness CA-1, O=Equifax Secure Inc., C=US
+  Algorithm: RSA; Serial number: 0xc3517
+  Valid from Mon Jun 21 12:00:00 SGT 1999 until Mon Jun 22 12:00:00 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Issuer:  CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Algorithm: EC; Serial number: 0xa68b79290000000050d091f9
+  Valid from Tue Dec 18 23:25:36 SGT 2012 until Fri Dec 18 23:55:36 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=SecureTrust CA, O=SecureTrust Corporation, C=US
+  Issuer:  CN=SecureTrust CA, O=SecureTrust Corporation, C=US
+  Algorithm: RSA; Serial number: 0xcf08e5c0816a5ad427ff0eb271859d0
+  Valid from Wed Nov 08 03:31:18 SGT 2006 until Tue Jan 01 03:40:55 SGT 2030
+
+adding as trusted cert:
+  Subject: OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
+  Issuer:  OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Tue Sep 30 12:20:49 SGT 2003 until Sat Sep 30 12:20:49 SGT 2023
+
+adding as trusted cert:
+  Subject: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0x83be056904246b1a1756ac95991c74a
+  Valid from Fri Nov 10 08:00:00 SGT 2006 until Mon Nov 10 08:00:00 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x445734245b81899b35f2ceb82b3b5ba726f07528
+  Valid from Fri Jan 13 02:59:32 SGT 2012 until Mon Jan 13 02:59:32 SGT 2042
+
+adding as trusted cert:
+  Subject: CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0x59b1b579e8e2132e23907bda777755c
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=qppmsbs1.sap.local, OU=ITD, O=SPGroup, L=Singapore, ST=Singapore, C=SG
+  Issuer:  CN=SPAuth, DC=SAP, DC=local
+  Algorithm: RSA; Serial number: 0x15000000d3997a90b8805b4f550001000000d3
+  Valid from Fri Sep 21 11:50:31 SGT 2018 until Mon Sep 20 11:50:31 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US
+  Algorithm: RSA; Serial number: 0x18acb56afd69b6153a636cafdafac4a1
+  Valid from Mon Nov 27 08:00:00 SGT 2006 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP
+  Issuer:  OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Fri May 29 13:00:39 SGT 2009 until Tue May 29 13:00:39 SGT 2029
+
+adding as trusted cert:
+  Subject: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 3 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Issuer:  OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 3 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x7dd9fe07cfa81eb7107967fba78934c6
+  Valid from Mon May 18 08:00:00 SGT 1998 until Wed Aug 02 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW
+  Issuer:  OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW
+  Algorithm: RSA; Serial number: 0x15c8bd65475cafb897005ee406d2bc9d
+  Valid from Mon Dec 20 10:31:27 SGT 2004 until Wed Dec 20 10:31:27 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=AffirmTrust Commercial, O=AffirmTrust, C=US
+  Issuer:  CN=AffirmTrust Commercial, O=AffirmTrust, C=US
+  Algorithm: RSA; Serial number: 0x7777062726a9b17c
+  Valid from Fri Jan 29 22:06:06 SGT 2010 until Tue Dec 31 22:06:06 SGT 2030
+
+adding as trusted cert:
+  Subject: CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+  Issuer:  CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL
+  Algorithm: RSA; Serial number: 0x444c0
+  Valid from Wed Oct 22 20:07:37 SGT 2008 until Mon Dec 31 20:07:37 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US
+  Issuer:  CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US
+  Algorithm: RSA; Serial number: 0x50946cec18ead59c4dd597ef758fa0ad
+  Valid from Tue Nov 02 01:14:04 SGT 2004 until Mon Jan 01 13:37:19 SGT 2035
+
+adding as trusted cert:
+  Subject: CN=Sonera Class2 CA, O=Sonera, C=FI
+  Issuer:  CN=Sonera Class2 CA, O=Sonera, C=FI
+  Algorithm: RSA; Serial number: 0x1d
+  Valid from Fri Apr 06 15:29:40 SGT 2001 until Tue Apr 06 15:29:40 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=America Online Root Certification Authority 1, O=America Online Inc., C=US
+  Issuer:  CN=America Online Root Certification Authority 1, O=America Online Inc., C=US
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 28 14:00:00 SGT 2002 until Fri Nov 20 04:43:00 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+  Algorithm: EC; Serial number: 0x3cb2f4480a00e2feeb243b5e603ec36b
+  Valid from Mon Nov 05 08:00:00 SGT 2007 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+  Issuer:  OU=Equifax Secure Certificate Authority, O=Equifax, C=US
+  Algorithm: RSA; Serial number: 0x35def4cf
+  Valid from Sun Aug 23 00:41:51 SGT 1998 until Thu Aug 23 00:41:51 SGT 2018
+
+adding as trusted cert:
+  Subject: CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Issuer:  CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Algorithm: EC; Serial number: 0x1f47afaa62007050544c019e9b63992a
+  Valid from Thu Mar 06 08:00:00 SGT 2008 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=ISRG Root X1, O=Internet Security Research Group, C=US
+  Issuer:  CN=ISRG Root X1, O=Internet Security Research Group, C=US
+  Algorithm: RSA; Serial number: 0x8210cfb0d240e3594463e0bb63828b00
+  Valid from Thu Jun 04 19:04:38 SGT 2015 until Mon Jun 04 19:04:38 SGT 2035
+
+adding as trusted cert:
+  Subject: CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0x2ac5c266a0b409b8f0b79f2ae462577
+  Valid from Fri Nov 10 08:00:00 SGT 2006 until Mon Nov 10 08:00:00 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Thu Mar 04 13:00:00 SGT 2004 until Sun Mar 04 13:00:00 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+  Issuer:  CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+  Algorithm: RSA; Serial number: 0x4000000000121585308a2
+  Valid from Wed Mar 18 18:00:00 SGT 2009 until Sun Mar 18 18:00:00 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+  Issuer:  CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+  Algorithm: RSA; Serial number: 0x20000b9
+  Valid from Sat May 13 02:46:00 SGT 2000 until Tue May 13 07:59:00 SGT 2025
+
+adding as trusted cert:
+  Subject: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, ST=Western Cape, C=ZA
+  Issuer:  CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, ST=Western Cape, C=ZA
+  Algorithm: RSA; Serial number: 0x67c8e1e8e3be1cbdfc913b8ea6238749
+  Valid from Wed Jan 01 08:00:00 SGT 1997 until Sat Jan 02 07:59:59 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Issuer:  CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Thu Jan 01 08:00:00 SGT 2004 until Mon Jan 01 07:59:59 SGT 2029
+
+adding as trusted cert:
+  Subject: OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+  Issuer:  OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Wed Jun 30 01:39:16 SGT 2004 until Fri Jun 30 01:39:16 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
+  Issuer:  CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Wed Oct 01 00:13:43 SGT 2003 until Thu Oct 01 00:13:44 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=UTN-USERFirst-Hardware, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Issuer:  CN=UTN-USERFirst-Hardware, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Algorithm: RSA; Serial number: 0x44be0c8b500024b411d3362afe650afd
+  Valid from Sat Jul 10 02:10:42 SGT 1999 until Wed Jul 10 02:19:22 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x9b7e0649a33e62b9d5ee90487129ef57
+  Valid from Fri Oct 01 08:00:00 SGT 1999 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+  Issuer:  CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+  Algorithm: RSA; Serial number: 0x40000000001154b5ac394
+  Valid from Tue Sep 01 20:00:00 SGT 1998 until Fri Jan 28 20:00:00 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Issuer:  CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Algorithm: RSA; Serial number: 0x44be0c8b500024b411d3362de0b35f1b
+  Valid from Sat Jul 10 02:31:20 SGT 1999 until Wed Jul 10 02:40:36 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=AffirmTrust Networking, O=AffirmTrust, C=US
+  Issuer:  CN=AffirmTrust Networking, O=AffirmTrust, C=US
+  Algorithm: RSA; Serial number: 0x7c4f04391cd4992d
+  Valid from Fri Jan 29 22:08:24 SGT 2010 until Tue Dec 31 22:08:24 SGT 2030
+
+adding as trusted cert:
+  Subject: CN=AffirmTrust Premium, O=AffirmTrust, C=US
+  Issuer:  CN=AffirmTrust Premium, O=AffirmTrust, C=US
+  Algorithm: RSA; Serial number: 0x6d8c1446b1a60aee
+  Valid from Fri Jan 29 22:10:36 SGT 2010 until Mon Dec 31 22:10:36 SGT 2040
+
+adding as trusted cert:
+  Subject: CN=Baltimore CyberTrust Code Signing Root, OU=CyberTrust, O=Baltimore, C=IE
+  Issuer:  CN=Baltimore CyberTrust Code Signing Root, OU=CyberTrust, O=Baltimore, C=IE
+  Algorithm: RSA; Serial number: 0x20000bf
+  Valid from Wed May 17 22:01:00 SGT 2000 until Sun May 18 07:59:00 SGT 2025
+
+adding as trusted cert:
+  Subject: CN=America Online Root Certification Authority 2, O=America Online Inc., C=US
+  Issuer:  CN=America Online Root Certification Authority 2, O=America Online Inc., C=US
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 28 14:00:00 SGT 2002 until Tue Sep 29 22:08:00 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU
+  Issuer:  CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU
+  Algorithm: RSA; Serial number: 0xbb8
+  Valid from Thu Mar 17 17:51:37 SGT 2011 until Wed Mar 17 17:51:37 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US
+  Algorithm: RSA; Serial number: 0x15ac6e9419b2794b41f627a9c3180f1f
+  Valid from Wed Apr 02 08:00:00 SGT 2008 until Wed Dec 02 07:59:59 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Issuer:  CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Algorithm: RSA; Serial number: 0xa3da427ea4b1aeda
+  Valid from Fri Aug 01 20:29:50 SGT 2008 until Sat Jul 31 20:29:50 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
+  Issuer:  CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH
+  Algorithm: RSA; Serial number: 0x4f1bd42f54bb2f4b
+  Valid from Wed Oct 25 16:32:46 SGT 2006 until Sat Oct 25 16:32:46 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Issuer:  CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x4a538c28
+  Valid from Wed Jul 08 01:25:54 SGT 2009 until Sun Dec 08 01:55:54 SGT 2030
+
+adding as trusted cert:
+  Subject: CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0xce7e0e517d846fe8fe560fc1bf03039
+  Valid from Fri Nov 10 08:00:00 SGT 2006 until Mon Nov 10 08:00:00 SGT 2031
+
+adding as trusted cert:
+  Subject: OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+  Issuer:  OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Wed Jun 30 01:06:20 SGT 2004 until Fri Jun 30 01:06:20 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+  Issuer:  CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 30 18:48:38 SGT 2000 until Sat May 30 18:48:38 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+  Issuer:  CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Wed Oct 01 18:29:56 SGT 2008 until Sun Oct 02 07:59:59 SGT 2033
+
+adding as trusted cert:
+  Subject: CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: EC; Serial number: 0x55556bcf25ea43535c3a40fd5ab4572
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=UTN-USERFirst-Client Authentication and Email, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Issuer:  CN=UTN-USERFirst-Client Authentication and Email, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US
+  Algorithm: RSA; Serial number: 0x44be0c8b500024b411d336252567c989
+  Valid from Sat Jul 10 01:28:50 SGT 1999 until Wed Jul 10 01:36:58 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=Class 2 Primary CA, O=Certplus, C=FR
+  Issuer:  CN=Class 2 Primary CA, O=Certplus, C=FR
+  Algorithm: RSA; Serial number: 0x85bd4bf3d8dae369f694d75fc3a54423
+  Valid from Thu Jul 08 01:05:00 SGT 1999 until Sun Jul 07 07:59:59 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  Issuer:  CN=GeoTrust Global CA, O=GeoTrust Inc., C=US
+  Algorithm: RSA; Serial number: 0x23456
+  Valid from Tue May 21 12:00:00 SGT 2002 until Sat May 21 12:00:00 SGT 2022
+
+adding as trusted cert:
+  Subject: CN=SPCert
+  Issuer:  CN=SPCert
+  Algorithm: RSA; Serial number: 0x5a8c8fad2b1a1bb34e95c45b28ca74d7
+  Valid from Thu Dec 04 20:35:06 SGT 2014 until Wed Dec 04 20:45:00 SGT 2024
+
+adding as trusted cert:
+  Subject: CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH
+  Issuer:  CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH
+  Algorithm: RSA; Serial number: 0x4eb200670c035d4f
+  Valid from Wed Oct 25 16:36:00 SGT 2006 until Sat Oct 25 16:36:00 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5
+  Issuer:  CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5
+  Algorithm: EC; Serial number: 0x605949e0262ebb55f90a778a71f94ad86c
+  Valid from Tue Nov 13 08:00:00 SGT 2012 until Tue Jan 19 11:14:07 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 2 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x6170cb498c5f984529e7b0a6d9505b7a
+  Valid from Fri Oct 01 08:00:00 SGT 1999 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Issuer:  CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Tue Sep 01 08:00:00 SGT 2009 until Fri Jan 01 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US
+  Issuer:  CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US
+  Algorithm: RSA; Serial number: 0xa0142800000014523cf467c00000002
+  Valid from Fri Jan 17 01:53:32 SGT 2014 until Tue Jan 17 01:53:32 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Issuer:  CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net
+  Algorithm: RSA; Serial number: 0x3863def8
+  Valid from Sat Dec 25 01:50:51 SGT 1999 until Tue Jul 24 22:15:12 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=TeliaSonera Root CA v1, O=TeliaSonera
+  Issuer:  CN=TeliaSonera Root CA v1, O=TeliaSonera
+  Algorithm: RSA; Serial number: 0x95be16a0f72e46f17b398272fa8bcd96
+  Valid from Thu Oct 18 20:00:50 SGT 2007 until Mon Oct 18 20:00:50 SGT 2032
+
+adding as trusted cert:
+  Subject: CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+  Issuer:  CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x344ed55720d5edec49f42fce37db2b6d
+  Valid from Fri Nov 17 08:00:00 SGT 2006 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Issuer:  CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Tue Sep 01 08:00:00 SGT 2009 until Fri Jan 01 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 1 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 1 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x8b5b75568454850b00cfaf3848ceb1a4
+  Valid from Fri Oct 01 08:00:00 SGT 1999 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: EC; Serial number: 0x2f80fe238c0e220f486712289187acb3
+  Valid from Mon Nov 05 08:00:00 SGT 2007 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+  Issuer:  CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x456b5054
+  Valid from Tue Nov 28 04:23:42 SGT 2006 until Sat Nov 28 04:53:42 SGT 2026
+
+adding as trusted cert:
+  Subject: CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0xb931c3ad63967ea6723bfc3af9af44b
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=Certum CA, O=Unizeto Sp. z o.o., C=PL
+  Issuer:  CN=Certum CA, O=Unizeto Sp. z o.o., C=PL
+  Algorithm: RSA; Serial number: 0x10020
+  Valid from Tue Jun 11 18:46:39 SGT 2002 until Fri Jun 11 18:46:39 SGT 2027
+
+adding as trusted cert:
+  Subject: CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+  Issuer:  CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 30 18:44:50 SGT 2000 until Sat May 30 18:44:50 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=DST Root CA X3, O=Digital Signature Trust Co.
+  Issuer:  CN=DST Root CA X3, O=Digital Signature Trust Co.
+  Algorithm: RSA; Serial number: 0x44afb080d6a327ba893039862ef8406b
+  Valid from Sun Oct 01 05:12:19 SGT 2000 until Thu Sep 30 22:01:15 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO
+  Issuer:  CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO
+  Algorithm: RSA; Serial number: 0x2
+  Valid from Tue Oct 26 16:38:03 SGT 2010 until Fri Oct 26 16:38:03 SGT 2040
+
+adding as trusted cert:
+  Subject: CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE
+  Issuer:  CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE
+  Algorithm: RSA; Serial number: 0x983f4
+  Valid from Thu Nov 05 16:50:46 SGT 2009 until Mon Nov 05 16:50:46 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: EC; Serial number: 0xba15afa1ddfa0b54944afcd24a06cec
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH
+  Issuer:  CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH
+  Algorithm: RSA; Serial number: 0xbb401c43f55e4fb0
+  Valid from Wed Oct 25 16:30:35 SGT 2006 until Sat Oct 25 16:30:35 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Issuer:  CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Algorithm: EC; Serial number: 0x5c8b99c55a94c5d27156decd8980cc26
+  Valid from Mon Feb 01 08:00:00 SGT 2010 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US
+  Issuer:  CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US
+  Algorithm: RSA; Serial number: 0xa0142800000014523c844b500000002
+  Valid from Fri Jan 17 02:12:23 SGT 2014 until Tue Jan 17 02:12:23 SGT 2034
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x509
+  Valid from Sat Nov 25 02:27:00 SGT 2006 until Tue Nov 25 02:23:33 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+  Issuer:  CN=Deutsche Telekom Root CA 2, OU=T-TeleSec Trust Center, O=Deutsche Telekom AG, C=DE
+  Algorithm: RSA; Serial number: 0x26
+  Valid from Fri Jul 09 20:11:00 SGT 1999 until Wed Jul 10 07:59:00 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE
+  Issuer:  CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE
+  Algorithm: RSA; Serial number: 0x983f3
+  Valid from Thu Nov 05 16:35:58 SGT 2009 until Mon Nov 05 16:35:58 SGT 2029
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x78585f2ead2c194be3370735341328b596d46593
+  Valid from Fri Jan 13 01:27:44 SGT 2012 until Mon Jan 13 01:27:44 SGT 2042
+
+adding as trusted cert:
+  Subject: OU=Class 1 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+  Issuer:  OU=Class 1 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x3f691e819cf09a4af373ffb948a2e4dd
+  Valid from Mon Jan 29 08:00:00 SGT 1996 until Thu Aug 03 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Issuer:  CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Algorithm: RSA; Serial number: 0x1fd6d30fca3ca51a81bbc640e35032d
+  Valid from Mon Feb 01 08:00:00 SGT 2010 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 2 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Issuer:  OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 2 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0xb92f60cc889fa17a4609b85b706c8aaf
+  Valid from Mon May 18 08:00:00 SGT 1998 until Wed Aug 02 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2
+  Issuer:  CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2
+  Algorithm: RSA; Serial number: 0x400000000010f8626e60d
+  Valid from Fri Dec 15 16:00:00 SGT 2006 until Wed Dec 15 16:00:00 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x18dad19e267de8bb4a2158cdcc6b3b4a
+  Valid from Wed Nov 08 08:00:00 SGT 2006 until Thu Jul 17 07:59:59 SGT 2036
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x5c6
+  Valid from Sat Nov 25 03:11:23 SGT 2006 until Tue Nov 25 03:06:44 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Issuer:  CN=StarfieException in thread "main" javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1964)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:328)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:322)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1614)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1052)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:987)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sp.ppms.console.util.A.doPost(A.java:94)
+	at com.sp.ppms.console.util.A.main(A.java:144)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:397)
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:302)
+	at sun.security.validator.Validator.validate(Validator.java:262)
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1596)
+	... 15 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:141)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:126)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280)
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:392)
+	... 21 more
+ld Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Tue Sep 01 08:00:00 SGT 2009 until Fri Jan 01 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=Swisscom Root CA 2, OU=Digital Certificate Services, O=Swisscom, C=ch
+  Issuer:  CN=Swisscom Root CA 2, OU=Digital Certificate Services, O=Swisscom, C=ch
+  Algorithm: RSA; Serial number: 0x1e9e28e848f2e5efc37c4a1e5a1867b6
+  Valid from Fri Jun 24 16:38:14 SGT 2011 until Wed Jun 25 15:38:14 SGT 2031
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x2ef59b0228a7db7affd5a3a9eebd03a0cf126a1d
+  Valid from Fri Jan 13 04:26:32 SGT 2012 until Mon Jan 13 04:26:32 SGT 2042
+
+adding as trusted cert:
+  Subject: CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT
+  Issuer:  CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT
+  Algorithm: RSA; Serial number: 0x570a119742c4e3cc
+  Valid from Thu Sep 22 19:22:02 SGT 2011 until Sun Sep 22 19:22:02 SGT 2030
+
+adding as trusted cert:
+  Subject: CN=SPQAMAuth.qasp.local
+  Issuer:  CN=SPQAMAuth.qasp.local
+  Algorithm: RSA; Serial number: 0x107d69efb46a45b34140013707328c14
+  Valid from Mon Oct 09 15:53:11 SGT 2017 until Fri Oct 09 16:03:00 SGT 2037
+
+adding as trusted cert:
+  Subject: OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+  Issuer:  OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x3c9131cb1ff6d01b0e9ab8d044bf12be
+  Valid from Mon Jan 29 08:00:00 SGT 1996 until Thu Aug 03 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM
+  Issuer:  CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM
+  Algorithm: RSA; Serial number: 0x3ab6508b
+  Valid from Tue Mar 20 02:33:33 SGT 2001 until Thu Mar 18 02:33:33 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=Class 3P Primary CA, O=Certplus, C=FR
+  Issuer:  CN=Class 3P Primary CA, O=Certplus, C=FR
+  Algorithm: RSA; Serial number: 0xbf5cdbb6f21c6ec04deb7a023b36e879
+  Valid from Thu Jul 08 01:10:00 SGT 1999 until Sun Jul 07 07:59:59 SGT 2019
+
+adding as trusted cert:
+  Subject: CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO
+  Issuer:  CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO
+  Algorithm: RSA; Serial number: 0x2
+  Valid from Tue Oct 26 16:28:58 SGT 2010 until Fri Oct 26 16:28:58 SGT 2040
+
+adding as trusted cert:
+  Subject: OU=Security Communication EV RootCA1, O="SECOM Trust Systems CO.,LTD.", C=JP
+  Issuer:  OU=Security Communication EV RootCA1, O="SECOM Trust Systems CO.,LTD.", C=JP
+  Algorithm: RSA; Serial number: 0x0
+  Valid from Wed Jun 06 10:12:32 SGT 2007 until Sat Jun 06 10:12:32 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US
+  Issuer:  CN=Equifax Secure eBusiness CA-1, O=Equifax Secure Inc., C=US
+  Algorithm: RSA; Serial number: 0x59e3
+  Valid from Mon Jun 21 12:00:00 SGT 1999 until Mon Jun 22 12:00:00 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US
+  Issuer:  CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US
+  Algorithm: EC; Serial number: 0x35fc265cd9844fc93d263d579baed756
+  Valid from Mon Nov 05 08:00:00 SGT 2007 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Issuer:  CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x401ac46421b31321030ebbe4121ac51d
+  Valid from Wed Apr 02 08:00:00 SGT 2008 until Wed Dec 02 07:59:59 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=AddTrust Class 1 CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+  Issuer:  CN=AddTrust Class 1 CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Tue May 30 18:38:31 SGT 2000 until Sat May 30 18:38:31 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4
+  Issuer:  CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4
+  Algorithm: EC; Serial number: 0x2a38a41c960a04de42b228a50be8349802
+  Valid from Tue Nov 13 08:00:00 SGT 2012 until Tue Jan 19 11:14:07 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Issuer:  CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU
+  Algorithm: RSA; Serial number: 0xc9cdd3e9d57d23ce
+  Valid from Fri Aug 01 20:31:40 SGT 2008 until Sat Jul 31 20:31:40 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+  Issuer:  CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x600197b746a7eab4b49ad64b2ff790fb
+  Valid from Wed Apr 02 08:00:00 SGT 2008 until Wed Dec 02 07:59:59 SGT 2037
+
+adding as trusted cert:
+  Subject: CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Issuer:  CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB
+  Algorithm: RSA; Serial number: 0x4caaf9cadb636fe01ff74ed85b03869d
+  Valid from Tue Jan 19 08:00:00 SGT 2010 until Tue Jan 19 07:59:59 SGT 2038
+
+adding as trusted cert:
+  Subject: CN=GTE CyberTrust Global Root, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
+  Issuer:  CN=GTE CyberTrust Global Root, OU="GTE CyberTrust Solutions, Inc.", O=GTE Corporation, C=US
+  Algorithm: RSA; Serial number: 0x1a5
+  Valid from Thu Aug 13 08:29:00 SGT 1998 until Tue Aug 14 07:59:00 SGT 2018
+
+adding as trusted cert:
+  Subject: EMAILADDRESS=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA
+  Issuer:  EMAILADDRESS=premium-server@thawte.com, CN=Thawte Premium Server CA, OU=Certification Services Division, O=Thawte Consulting cc, L=Cape Town, ST=Western Cape, C=ZA
+  Algorithm: RSA; Serial number: 0x36122296c5e338a520a1d25f4cd70954
+  Valid from Thu Aug 01 08:00:00 SGT 1996 until Sat Jan 02 07:59:59 SGT 2021
+
+adding as trusted cert:
+  Subject: CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US
+  Issuer:  CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US
+  Algorithm: EC; Serial number: 0x7497258ac73f7a54
+  Valid from Fri Jan 29 22:20:24 SGT 2010 until Mon Dec 31 22:20:24 SGT 2040
+
+adding as trusted cert:
+  Subject: CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+  Issuer:  CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE
+  Algorithm: RSA; Serial number: 0x1
+  Valid from Wed Oct 01 18:40:14 SGT 2008 until Sun Oct 02 07:59:59 SGT 2033
+
+adding as trusted cert:
+  Subject: OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 1 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Issuer:  OU=VeriSign Trust Network, OU="(c) 1998 VeriSign, Inc. - For authorized use only", OU=Class 1 Public Primary Certification Authority - G2, O="VeriSign, Inc.", C=US
+  Algorithm: RSA; Serial number: 0x4cc7eaaa983e71d39310f83d3a899192
+  Valid from Mon May 18 08:00:00 SGT 1998 until Wed Aug 02 07:59:59 SGT 2028
+
+adding as trusted cert:
+  Subject: CN=KEYNECTIS ROOT CA, OU=ROOT, O=KEYNECTIS, C=FR
+  Issuer:  CN=KEYNECTIS ROOT CA, OU=ROOT, O=KEYNECTIS, C=FR
+  Algorithm: RSA; Serial number: 0x1121bc276c5547af584eefd4ced629b2a285
+  Valid from Tue May 26 08:00:00 SGT 2009 until Tue May 26 08:00:00 SGT 2020
+
+adding as trusted cert:
+  Subject: CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Issuer:  CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Algorithm: RSA; Serial number: 0x33af1e6a711a9a0bb2864b11d09fae5
+  Valid from Thu Aug 01 20:00:00 SGT 2013 until Fri Jan 15 20:00:00 SGT 2038
+
+trigger seeding of SecureRandom
+done seeding SecureRandom
+
+Process finished with exit code 1
