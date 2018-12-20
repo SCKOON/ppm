@@ -1,0 +1,1 @@
+Hi,\n  \n  When PPMS conducted reconciliation for ${settleDate}, the following CA reconciliation was not completed so the GL file cannot be generated. Please log into PPMS system for query and processing. <for>${n}) ${CAName} - ${CAReconStatus}</for>
