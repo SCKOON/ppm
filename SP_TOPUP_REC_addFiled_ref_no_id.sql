@@ -1,1 +1,0 @@
-alter table SP_TOPUP_REC add ref_no_id VARCHAR(54) NULL
