@@ -1,0 +1,1 @@
+2019-01-27 09:00:00,074 [schedulerFactoryBean_Worker-10] ERROR com.kd.ppms_email.job.EmailJob 84 - Invalid bound statement (not found): com.kd.ppms_email.mapper.CAReconResultInfoEntityMapper.queryCAFailReconRecords
